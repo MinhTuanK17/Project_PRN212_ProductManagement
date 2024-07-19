@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Admin&amp;Staff\AdminMainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin&amp;Staff\ManageCategory\AddNewCategory.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin&amp;Staff\ManageCategory\UpdateCategory.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin&amp;Staff\ManageCustomer\AddNewCustomer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin&amp;Staff\ManageCustomer\EditCustomer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin&amp;Staff\ManageProduct\AddNewProduct.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Admin&amp;Staff\ManageProduct\UpdateProduct.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Customer\CustomerMainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Customer\ManageProfile\UpdateProfile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Admin&amp;Staff\AdminMainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin&amp;Staff\ManageCategory\AddNewCategory.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin&amp;Staff\ManageCategory\UpdateCategory.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin&amp;Staff\ManageCustomer\AddNewCustomer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin&amp;Staff\ManageCustomer\EditCustomer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin&amp;Staff\ManageProduct\AddNewProduct.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Admin&amp;Staff\ManageProduct\UpdateProduct.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Customer\CustomerMainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Customer\ManageProfile\UpdateProfile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
