@@ -1,16 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BusinessObject;
+using ProductManagement.Customer.ManageProfile;
+using Repositories.AccountR;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace ProductManagement.Customer
 {
@@ -19,9 +10,49 @@ namespace ProductManagement.Customer
     /// </summary>
     public partial class CustomerMainWindow : Window
     {
+        public Account LoggedInUser { get; set; }
+        public readonly IAccountRepository accountRepository;
         public CustomerMainWindow()
         {
             InitializeComponent();
+            accountRepository = new AccountRepository();
+            DataContext = this;
+        }
+        private void Logout_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
+            LoginWindow login = new LoginWindow();
+            login.Show();
+        }
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            DisplayCustomerInfo();
+        }
+        private void DisplayCustomerInfo()
+        {
+            if (LoggedInUser != null)
+            {
+                txtFullName.Text = LoggedInUser.FullName;
+                txtEmail.Text = LoggedInUser.Email;
+                txtGender.IsChecked = LoggedInUser.Gender;
+                txtPhone.Text = LoggedInUser.PhoneNumber;
+                if (LoggedInUser.DayOfBirth.HasValue)
+                {
+                    txtDob.Text = LoggedInUser.DayOfBirth.Value.ToString("MM/dd/yyyy");
+                }
+                else
+                {
+                    txtDob.Text = string.Empty;
+                }
+                txtAddress.Text = LoggedInUser.Address;
+            }
+        }
+        private void Update_Click_Profile(object sender, RoutedEventArgs e)
+        {
+            UpdateProfile updateProfileWindow = new UpdateProfile();
+            updateProfileWindow.LoggedInUser = LoggedInUser;
+            updateProfileWindow.Closed += (s, args) => DisplayCustomerInfo();
+            updateProfileWindow.ShowDialog();
         }
     }
 }

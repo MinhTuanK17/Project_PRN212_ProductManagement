@@ -16,3 +16,4 @@ D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManageme
 D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManagement\Repositories\obj\Debug\net8.0\refint\Repositories.dll
 D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManagement\Repositories\obj\Debug\net8.0\Repositories.pdb
 D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManagement\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManagement\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json

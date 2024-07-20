@@ -47,7 +47,7 @@ namespace ProductManagement
                         this.Hide();
                         Account customer = await accountRepository.GetAccountByEmail(email);
                         CustomerMainWindow customerWindow = new CustomerMainWindow();
-                        //customerWindow.LoggedInUser = customer;
+                        customerWindow.LoggedInUser = customer;
                         customerWindow.Show();
                     }
                 }

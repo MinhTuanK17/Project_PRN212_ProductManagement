@@ -5,8 +5,119 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProductManagement.Admin_Staff.ManageProduct"
         mc:Ignorable="d"
-        Title="UpdateProduct" Height="450" Width="800">
-    <Grid>
-        
+        Height="523" Width="700"
+        WindowStartupLocation="CenterScreen" Loaded="Window_Loaded"
+        ShowInTaskbar="False" WindowStyle="None"
+        >
+    <Grid Margin="0,10,0,0" Background="#FFEEEEEE">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="622*"/>
+            <ColumnDefinition Width="11*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="376"/>
+            <RowDefinition Height="108.04"/>
+        </Grid.RowDefinitions>
+
+        <!-- Row for Logout button -->
+
+        <Grid Margin="0,0,0,25" HorizontalAlignment="Center" Width="622" Grid.Column="1" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150*"/>
+                <ColumnDefinition Width="220*"/>
+                <ColumnDefinition Width="170*"/>
+                <ColumnDefinition Width="220*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="75*"/>
+                <RowDefinition Height="75*"/>
+                <RowDefinition Height="75*"/>
+                <RowDefinition Height="75*"/>
+                <RowDefinition Height="75*"/>
+                <RowDefinition Height="75*"/>
+                <RowDefinition Height="75*"/>
+            </Grid.RowDefinitions>
+            <TextBlock FontSize="32" VerticalAlignment="Top" Height="42" HorizontalAlignment="Left" FontWeight="Bold" Grid.Column="1" Width="218"  Foreground="#FFFF6F00" Grid.ColumnSpan="2" Margin="79,10,0,0">
+                    Update Phone
+            </TextBlock>
+
+            <TextBlock Grid.Row ="1" Grid.Column="0" FontSize="16" VerticalAlignment="Center" Margin="10,0,198,0" Height="22" Grid.ColumnSpan="2">
+                    Phone ID:
+            </TextBlock>
+            <TextBlock Grid.Row ="1" Grid.Column="1" Margin="30,0,10,0" Name="txtPhoneId"  Height="22" VerticalAlignment="Center"/>
+
+            <TextBlock Grid.Row ="1" Grid.Column="2" FontSize="16" VerticalAlignment="Center" Margin="10,0,198,0" Height="22" Grid.ColumnSpan="2">
+                    Phone Name:
+            </TextBlock>
+            <TextBox Grid.Row ="1" Grid.Column="3" Margin="30,0,10,0" Name="txtPhoneName" TabIndex="1" VerticalAlignment="Center" VerticalContentAlignment="Center" Height="35"/>
+
+            <TextBlock Grid.Row="2" Grid.Column="0" FontSize="16" VerticalAlignment="Center" Margin="10,0,198,0" Height="21" Grid.ColumnSpan="2">
+                    Brand:
+            </TextBlock>
+            <ComboBox Grid.Row="2" Grid.Column="1" VerticalContentAlignment="Center" Name="cbCategory" SelectedValuePath="CategoryId" DisplayMemberPath="CategoryName" VerticalAlignment="Center"  Cursor="Hand" Margin="30,0,10,0" Height="35"/>
+
+            <TextBlock Grid.Row="2" Grid.Column="2" FontSize="16" VerticalAlignment="Center" Margin="10,0,198,0" Height="21" Grid.ColumnSpan="2">
+                    Quantity:
+            </TextBlock>
+            <TextBox Grid.Row="2" Grid.Column="3" Margin="30,0,10,0" Name="txtQuantity" TabIndex="3" VerticalAlignment="Center" VerticalContentAlignment="Center" Height="35"/>
+
+            <TextBlock Grid.Row="3" FontSize="16" VerticalAlignment="Top" Margin="10,18,198,0" Height="21" Grid.ColumnSpan="2">
+                     Ram:
+            </TextBlock>
+            <ComboBox Grid.Row="3" Grid.Column="1" Margin="30,0,10,0" Name="cbRam" TabIndex="4" VerticalAlignment="Center" VerticalContentAlignment="Center" Height="38" Cursor="Hand">
+                <ComboBoxItem Content="2 GB" />
+                <ComboBoxItem Content="4 GB" />
+                <ComboBoxItem Content="6 GB" />
+                <ComboBoxItem Content="8 GB" />
+                <ComboBoxItem Content="12 GB" />
+                <ComboBoxItem Content="16 GB" />
+                <ComboBoxItem Content="32 GB" />
+                <ComboBoxItem Content="64 GB" />
+                <ComboBoxItem Content="128 GB" />
+            </ComboBox>
+            <TextBlock Grid.Row="3" Grid.Column="2" FontSize="16" VerticalAlignment="Top" Margin="10,18,198,0" Height="21" Grid.ColumnSpan="2">
+                    Memory:
+            </TextBlock>
+            <ComboBox Grid.Row="3" Grid.Column="3" Margin="30,0,10,0" Name="cbMemory" TabIndex="4" VerticalAlignment="Center" VerticalContentAlignment="Center" Height="38" Cursor="Hand">
+                <ComboBoxItem Content="8 GB" />
+                <ComboBoxItem Content="16 GB" />
+                <ComboBoxItem Content="32 GB" />
+                <ComboBoxItem Content="64 GB" />
+                <ComboBoxItem Content="128 GB" />
+                <ComboBoxItem Content="256 GB" />
+                <ComboBoxItem Content="512 GB" />
+                <ComboBoxItem Content="1 TB" />
+                <ComboBoxItem Content="2 TB" />
+            </ComboBox>
+
+            <TextBlock Grid.Row="4" Grid.Column="0" FontSize="16" VerticalAlignment="Center" Margin="10,0,198,0" Height="21" Grid.ColumnSpan="2">
+                    Price:
+            </TextBlock>
+            <TextBox Grid.Row ="4" Grid.Column="1" Margin="30,0,10,0" Name="txtPrice" TabIndex="1" VerticalAlignment="Center" VerticalContentAlignment="Center" Height="35" Grid.ColumnSpan="3"/>
+
+            <TextBlock Grid.Row="5" FontSize="16" VerticalAlignment="Top" Margin="10,18,198,0" Height="21" Grid.ColumnSpan="2">
+                Description:
+            </TextBlock>
+            <TextBox Grid.Row="5" Grid.ColumnSpan="3" Margin="30,0,10,0" Name="txtDescription" TabIndex="7" VerticalAlignment="Center" VerticalContentAlignment="Center" Height="38" Grid.Column="1"/>
+        </Grid>
+
+        <Grid Margin="-31,24,-44,0" Grid.Row="1" Grid.ColumnSpan="3" Height="73" VerticalAlignment="Top">
+
+            <Button
+                Grid.Row="0"
+                Margin="348,15,180,15"
+                Content="Save" BorderBrush="Black"
+                FontSize="20" TabIndex="8"
+                Click="Save_Click" Cursor="Hand" FontWeight="Bold" Width="115" HorizontalAlignment="Center" Background="#FFFFA54A"/>
+
+            <Button
+                Grid.Row="0" TabIndex="9"
+                Margin="505,14,18,16"
+                Content="Cancel" BorderBrush="Black"
+                FontSize="20" Click="Cancel_Click" Cursor="Hand" Width="115" FontWeight="Bold" Background="#FFEBE0E0" HorizontalAlignment="Center"
+            />
+        </Grid>
     </Grid>
 </Window>

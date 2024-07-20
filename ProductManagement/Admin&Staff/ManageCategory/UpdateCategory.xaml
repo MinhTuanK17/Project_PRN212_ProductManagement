@@ -5,8 +5,66 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProductManagement.Admin_Staff.ManageCategory"
         mc:Ignorable="d"
-        Title="UpdateCategory" Height="450" Width="800">
-    <Grid>
-        
+        Height="350" Width="700"
+        WindowStartupLocation="CenterScreen"
+        ShowInTaskbar="False" WindowStyle="None"
+        >
+    <Grid Margin="0,10,0,0" Background="#FFEEEEEE">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="622*"/>
+            <ColumnDefinition Width="11*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="215"/>
+            <RowDefinition Height="269.04"/>
+        </Grid.RowDefinitions>
+
+        <!-- Row for Logout button -->
+
+        <Grid HorizontalAlignment="Center" Width="622" Grid.Column="1" Margin="0,0,0,261" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150*"/>
+                <ColumnDefinition Width="220*"/>
+                <ColumnDefinition Width="170*"/>
+                <ColumnDefinition Width="220*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="75*"/>
+                <RowDefinition Height="75*"/>
+                <RowDefinition Height="75*"/>
+
+            </Grid.RowDefinitions>
+            <TextBlock FontSize="32" VerticalAlignment="Top" Height="42" HorizontalAlignment="Left" FontWeight="Bold" Grid.Column="1" Width="210"  Foreground="#FFFF6F00" Grid.ColumnSpan="2" Margin="83,10,0,0">
+                    Update Brand
+            </TextBlock>
+            <TextBlock Grid.Row ="1" FontSize="16" VerticalAlignment="Center" Margin="10,0,198,0" Height="22" Grid.ColumnSpan="2">
+                    Brand ID:
+            </TextBlock>
+            <TextBlock Grid.Row ="1" Grid.Column="1" Margin="30,0,10,0" Name="txtBrandID" Height="22" Grid.ColumnSpan="3" VerticalAlignment="Center"/>
+
+            <TextBlock Grid.Row ="2" FontSize="16" VerticalAlignment="Center" Margin="10,0,198,0" Height="22" Grid.ColumnSpan="2">
+                    Brand Name:
+            </TextBlock>
+            <TextBox Grid.Row ="2" Grid.Column="1" Margin="30,0,10,0" Name="txtBrandName" TabIndex="1" VerticalAlignment="Center" VerticalContentAlignment="Center" Height="35" Grid.ColumnSpan="3"/>
+        </Grid>
+
+        <Grid Margin="-31,24,-44,0" Grid.Row="1" Grid.ColumnSpan="3" Height="73" VerticalAlignment="Top">
+
+            <Button
+                Grid.Row="0"
+                Margin="348,15,180,15"
+                Content="Save" BorderBrush="Black"
+                FontSize="20" TabIndex="8"
+                Click="Save_Click" Cursor="Hand" FontWeight="Bold" Width="115" HorizontalAlignment="Center" Background="#FFFFA54A"/>
+
+            <Button
+                Grid.Row="0" TabIndex="9"
+                Margin="505,14,18,16"
+                Content="Cancel" BorderBrush="Black"
+                FontSize="20" Click="Cancel_Click" Cursor="Hand" Width="115" FontWeight="Bold" Background="#FFEBE0E0" HorizontalAlignment="Center"
+            />
+        </Grid>
     </Grid>
 </Window>

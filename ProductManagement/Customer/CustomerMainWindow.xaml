@@ -5,8 +5,291 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProductManagement.Customer"
         mc:Ignorable="d"
-        Title="CustomerMainWindow" Height="450" Width="800">
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Customer Window"
+        Height="800" Loaded="Window_Loaded"
+     WindowState="Maximized">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200*"/>
+            <RowDefinition Height="17*"/>
+        </Grid.RowDefinitions>
+
+        <materialDesign:Card Grid.RowSpan="2">
+            <TabControl materialDesign:NavigationRailAssist.ShowSelectionBackground="True"
+                        SnapsToDevicePixels="True"
+                        TabStripPlacement="Left">
+                <TabItem VerticalAlignment="Center" Height="70" Width="120">
+                    <TabItem.Background>
+                        <LinearGradientBrush EndPoint="0,1">
+                            <GradientStop Color="#FFFFEFDD" Offset="0.017"/>
+                            <GradientStop Color="#FFFFEFDD" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TabItem.Background>
+                    <TabItem.Header>
+                        <StackPanel Width="48" Height="auto" VerticalAlignment="Center">
+                            <materialDesign:PackIcon Width="24" Height="24" HorizontalAlignment="Center" Kind="Home" Foreground="#FFFF6500" />
+                            <TextBlock HorizontalAlignment="Center" Text="Home" />
+                        </StackPanel>
+                    </TabItem.Header>
+                    <Grid Width="1309">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text=" Hello, " VerticalAlignment="Center" Foreground="White" FontSize="18" FontWeight="Bold" Height="55" Background="#FFFF9C27" Margin="0,0,10,0">
+                            <TextBlock.Inlines>
+                                <Run Text="{Binding LoggedInUser.FullName}" />
+                            </TextBlock.Inlines>
+                        </TextBlock>
+                        <Button FontWeight="Bold" Background="#FFFF4A00" Foreground="White" BorderBrush="Transparent" Padding="10" Width="104" Click="Logout_Click" Cursor="Hand" HorizontalAlignment="Left" Margin="1206,0,0,0">
+                            <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="Login" VerticalAlignment="Center" Height="24" Width="24" Margin="0,0,5,0"/>
+                                <TextBlock Text="Logout" VerticalAlignment="Center" Margin="5,0,0,0" Height="20" FontWeight="Bold"/>
+                            </StackPanel>
+                        </Button>
+                        <TextBlock Text="Welcome to FPT UNIVERSITY" FontSize="36" FontWeight="Bold" Foreground="#FFFF5C00" Margin="0,0,342,1392" Grid.Row="1" />
+
+                        <Image Grid.Row="1" Source="https://danang.plus/wp-content/uploads/2022/12/hoc-phi-fpt-da-nang-3.jpg" HorizontalAlignment="Left" Margin="62,51,0,1347" Width="1249"/>
+                    </Grid>
+                </TabItem>
+                <TabItem VerticalAlignment="Center" Height="80">
+                    <TabItem.Background>
+                        <LinearGradientBrush EndPoint="0,1">
+                            <GradientStop Color="#FFFFEFDD" Offset="0.017"/>
+                            <GradientStop Color="#FFFFEFDD" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TabItem.Background>
+                    <TabItem.Header>
+                        <StackPanel Width="48" Height="auto" VerticalAlignment="Center">
+                            <materialDesign:PackIcon Width="24" Height="24" HorizontalAlignment="Center" Kind="Account" Foreground="#FFFF6500" />
+                            <TextBlock HorizontalAlignment="Center" Text="Account" />
+                        </StackPanel>
+                    </TabItem.Header>
+                    <StackPanel Margin="16">
+                        <Grid Height="130">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+                        </Grid>
+                        <materialDesign:Card Width="1100"
+                                             Padding="8"
+                                             Background="#FFFCE4A4"
+                                             Foreground="Indigo" Height="455">
+
+                            <Grid Background="#fff" Height="381" VerticalAlignment="Top" Margin="0,44,13,0" HorizontalAlignment="Right" Width="1061">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition />
+
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="16*"/>
+                                    <RowDefinition Height="16*"/>
+                                    <RowDefinition Height="16*"/>
+                                    <RowDefinition Height="16*"/>
+                                    <RowDefinition Height="16*"/>
+
+                                </Grid.RowDefinitions>
+
+                                <Label Content="Full Name:" VerticalAlignment="Center" Margin="10,0,10,0" Height="32" FontWeight="Bold" FontSize="16"/>
+                                <TextBlock x:Name="txtFullName" VerticalAlignment="Center" Height="23" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,0,10,0" FontStyle="Italic" FontSize="16"/>
+
+                                <Button Click="Update_Click_Profile" Grid.Row="0" Grid.Column="3" Margin="220,0,0,26" Width="40" Height="40" Background="White" BorderBrush="White" Foreground="White">
+                                    <materialDesign:PackIcon Width="40" Height="40" HorizontalAlignment="Center" Kind="AccountBoxEditOutline" Foreground="#FF686868" VerticalAlignment="Center" />
+                                </Button>
+                                <Label Content="Email:" VerticalAlignment="Center" Margin="10,0,10,0" Grid.Row="1" Height="32" FontWeight="Bold" FontSize="16"/>
+                                <TextBlock x:Name="txtEmail" Grid.Column="1" Grid.Row="1"   VerticalAlignment="Center" Height="23" Margin="0,0,10,0" FontStyle="Italic" FontSize="16"/>
+
+                                <Label Content="Gender:" Grid.Column="2" VerticalAlignment="Center" Margin="10,0,10,0" Grid.Row="1" Height="32" FontWeight="Bold" FontSize="16"/>
+                                <CheckBox x:Name="txtGender" Grid.Column="3" Grid.Row="1" Height="23" FontSize="16" IsEnabled="False"/>
+
+                                <Label Content="Phone:" VerticalAlignment="Center" Margin="10,0,10,0" Grid.Row="2" Height="32" FontWeight="Bold" FontSize="16"/>
+                                <TextBlock x:Name="txtPhone" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" Height="23" Margin="0,0,10,0" FontStyle="Italic" FontSize="16"/>
+
+                                <Label Content="Day of Birth:" Grid.Column="2" VerticalAlignment="Center" Margin="10,0,10,0" Grid.Row="2" Height="32" FontWeight="Bold" FontSize="16"/>
+                                <TextBlock x:Name="txtDob" Grid.Column="3" Grid.Row="2" VerticalAlignment="Center" Height="23" FontStyle="Italic" FontSize="16"/>
+
+                                <Label Content="Address:" VerticalAlignment="Center" Margin="10,0,10,0" Grid.Row="3" Height="32" FontWeight="Bold" FontSize="16"/>
+                                <TextBlock  x:Name="txtAddress" Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" Height="23" Grid.ColumnSpan="3" Margin="0,0,10,0" FontStyle="Italic" FontSize="16"/>
+
+                                <Label Content="Password:" VerticalAlignment="Center" Margin="10,0,10,0" Grid.Row="4" Height="32" FontWeight="Bold" FontSize="16"/>
+                                <TextBlock  x:Name="txtPassword" Text="********"  Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" Height="23" Margin="0,0,10,0" FontWeight="Bold" FontSize="16"/>
+
+                            </Grid>
+                        </materialDesign:Card>
+                    </StackPanel>
+                </TabItem>
+                <TabItem VerticalAlignment="Center" Height="80">
+                    <TabItem.Background>
+                        <LinearGradientBrush EndPoint="0,1">
+                            <GradientStop Color="#FFFFEFDD" Offset="0.017"/>
+                            <GradientStop Color="#FFFFEFDD" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TabItem.Background>
+                    <TabItem.Header>
+                        <StackPanel Width="48" Height="auto" VerticalAlignment="Center">
+                            <materialDesign:PackIcon Width="24" Height="24" HorizontalAlignment="Center" Kind="StorePlus" Foreground="#FFFF6500" />
+                            <TextBlock HorizontalAlignment="Center" Text="Order" />
+                        </StackPanel>
+                    </TabItem.Header>
+                    <StackPanel Margin="16">
+                        <materialDesign:Card Width="700" Padding="8" UniformCornerRadius="6">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+
+                                </Grid.ColumnDefinitions>
+
+
+                                <ComboBox Grid.Row="0"
+                                          Grid.Column="0"
+                                          Margin="10"
+                                          MinWidth="72"
+                                          materialDesign:HintAssist.Hint="Room Number"
+                                          materialDesign:HintAssist.HelperText="Room available"
+                                          Name="cbRoom"
+                                          SelectedValue="{Binding SelectedValueOne}"
+                                          DisplayMemberPath="{Binding RoomNumber}">
+                                    <ComboBox.SelectedItem>
+                                        <Binding Mode="TwoWay"
+                                                 Path="SelectedValueOne"
+                                                 UpdateSourceTrigger="PropertyChanged">
+
+                                        </Binding>
+                                    </ComboBox.SelectedItem>
+                                </ComboBox>
+
+                                <DatePicker Grid.Column="0"
+                                            Margin="10"
+                                            Grid.Row="1"
+                                            Name="txtStartDate"
+                                            SelectedDate="{Binding StartTime, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                            materialDesign:HintAssist.Hint="Start Date"
+                                            materialDesign:TextFieldAssist.HasClearButton="True"
+                                            materialDesign:HintAssist.HelperText="Start date" />
+
+                                <DatePicker Grid.Column="1"
+                                            Name="txtEndDate"
+                                            Margin="10"
+                                            Grid.Row="1"
+                                            SelectedDate="{Binding EndTime, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                            materialDesign:HintAssist.Hint="End Date"
+                                            materialDesign:HintAssist.HelperText="End date"
+                                            materialDesign:TextFieldAssist.HasClearButton="True" />
+                                <TextBox 
+                                    Grid.Row="2"
+                                    IsReadOnly="True"
+                                    Name="txtPrice"
+                                    Margin="10"
+                                         materialDesign:HintAssist.HelperText="Price per date"
+                                         materialDesign:HintAssist.Hint="Price per date"
+                                    Text="{Binding RoomPricePerDate}"
+                                       >
+
+                                </TextBox>
+                                <TextBox Grid.Row="2" Grid.Column="1"
+                                         IsReadOnly="True"
+                                         Name="txtActualPrice"
+                                         Margin="10"
+                                         materialDesign:HintAssist.HelperText="Price actual"
+                                         materialDesign:HintAssist.Hint="Price actual"
+                                         Text="{Binding ActualPrice}">
+
+                                </TextBox>
+                                <TextBox Grid.Row="3"
+                                         Grid.Column="0"
+                                         IsReadOnly="True"
+                                         Name="txtTotalPrice"
+                                         Margin="10"
+                                         materialDesign:HintAssist.HelperText="Total price include 8% tax"
+                                         materialDesign:HintAssist.Hint="Total price"
+                                         Text="{Binding TotalPrice}">
+
+                                </TextBox>
+                                <Button 
+                                    HorizontalAlignment="Left"
+                                    Grid.Row="4"
+                                        Grid.Column="0"
+                                        Margin="20"
+                                        Width="80"
+                                        Content="Book"
+                                        IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                                        ToolTip="Book room today to have discount 0%"
+                                        />
+
+                            </Grid>
+                        </materialDesign:Card>
+                    </StackPanel>
+                </TabItem>
+                <TabItem>
+                    <TabItem.Header>
+                        <StackPanel Width="auto"
+                                    Height="auto">
+                            <materialDesign:PackIcon Width="24"
+                                                     Height="24"
+                                                     HorizontalAlignment="Center"
+                                                     Kind="History" />
+                            <TextBlock HorizontalAlignment="Center"
+                                       Text="History" />
+                        </StackPanel>
+                    </TabItem.Header>
+                    <StackPanel Margin="16">
+                        <TextBlock Margin="0,0,0,8"
+                                   Text="Booking history" />
+                        <materialDesign:Card Width="700"
+                                             Padding="8"
+                                             UniformCornerRadius="6">
+
+                        </materialDesign:Card>
+                        <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                            <DataGrid CanUserAddRows="True"
+                                      CanUserDeleteRows="True"
+                                      x:Name="dtBookingDetails"
+                                      SelectionMode="Extended"
+                                      SelectionUnit="FullRow"
+                                      AutoGenerateColumns="False"
+                                      IsReadOnly="True">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="ID"
+                                                        Binding="{Binding BookingReservationID}" />
+                                    <DataGridTextColumn Header="Room Number"
+                                                        Binding="{Binding RoomInformation.RoomNumber}" />
+                                    <DataGridTextColumn Header="Booking Date"
+                                                        Binding="{Binding BookingReservation.BookingDate}" />
+                                    <DataGridTextColumn Header="Start Date"
+                                                        Binding="{Binding StartDate}" />
+                                    <DataGridTextColumn Header="End Date"
+                                                        Binding="{Binding EndDate}" />
+                                    <DataGridTextColumn Header="Total Price"
+                                                        Binding="{Binding BookingReservation.TotalPrice}" />
+                                    <DataGridTextColumn Header="Booking Status"
+                                                        Binding="{Binding BookingReservation.BookingStatus}" />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </ScrollViewer>
+                    </StackPanel>
+                </TabItem>
+
+
+            </TabControl>
+        </materialDesign:Card>
     </Grid>
 </Window>

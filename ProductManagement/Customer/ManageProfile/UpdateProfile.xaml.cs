@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BusinessObject;
+using Repositories.AccountR;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +21,58 @@ namespace ProductManagement.Customer.ManageProfile
     /// </summary>
     public partial class UpdateProfile : Window
     {
+        public Account LoggedInUser { get; set; }
+        public readonly IAccountRepository accountRepository;
+
         public UpdateProfile()
         {
-            InitializeComponent();
+            InitializeComponent(); 
+            accountRepository = new AccountRepository();
+            Loaded += UpdateProfile_Loaded;
+        }
+        private void UpdateProfile_Loaded(object sender, RoutedEventArgs e)
+        {
+            LoadProfileCustomer();
+        }
+
+        public void LoadProfileCustomer()
+        {
+            if (LoggedInUser != null)
+            {
+                txtFullName.Text = LoggedInUser.FullName;
+                txtEmail.Text = LoggedInUser.Email;
+                txtGender.IsChecked = LoggedInUser.Gender;
+                txtPhone.Text = LoggedInUser.PhoneNumber;
+                txtDob.SelectedDate = LoggedInUser.DayOfBirth;
+                txtAddress.Text = LoggedInUser.Address;
+            }
+        }
+        private async void Save_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                if (LoggedInUser != null)
+                {
+                    LoggedInUser.FullName = txtFullName.Text;
+                    LoggedInUser.Email = txtEmail.Text;
+                    LoggedInUser.Gender = txtGender.IsChecked;
+                    LoggedInUser.PhoneNumber = txtPhone.Text;
+                    LoggedInUser.DayOfBirth = DateTime.Parse(txtDob.Text);
+                    LoggedInUser.Address = txtAddress.Text;
+
+                    await accountRepository.UpdateAccountCustomer(LoggedInUser);
+                    MessageBox.Show("Profile updated successfully!");
+                    this.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error updating profile: {ex.Message}");
+            }
+        }
+        private void Cancel_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

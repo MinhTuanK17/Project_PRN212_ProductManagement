@@ -13,3 +13,4 @@ D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManageme
 D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManagement\BusinessObject\obj\Debug\net8.0\BusinessObject.genruntimeconfig.cache
 D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManagement\BusinessObject\obj\Debug\net8.0\ref\BusinessObject.dll
 D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManagement\BusinessObject\bin\Debug\net8.0\appsettings.json
+D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManagement\BusinessObject\obj\Debug\net8.0\BusinessObject.sourcelink.json

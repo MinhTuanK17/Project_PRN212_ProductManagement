@@ -77,14 +77,13 @@
                                 </Grid.ColumnDefinitions>
 
                                 <DataGrid Name="dtgActiveCustomers" Margin="10,10,10,10" AutoGenerateColumns="False"
-                                  ItemsSource="{Binding ActiveAccounts}"
                                   Grid.ColumnSpan="3">
                                     <DataGrid.Columns>
                                         <DataGridTextColumn Header="Account ID" Binding="{Binding AccountId}"/>
                                         <DataGridTextColumn Header="Full Name" Binding="{Binding FullName}" Width="*"/>
                                         <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="*"/>
                                         <DataGridTextColumn Header="Gender" Binding="{Binding Gender}" />
-                                        <DataGridTextColumn Header="Day Of Birth" Binding="{Binding DayOfBirth}" Width="*"/>
+                                        <DataGridTextColumn Header="Day Of Birth" Binding="{Binding DayOfBirth, StringFormat=d}" Width="*"/>
                                         <DataGridTextColumn Header="PhoneNumber" Binding="{Binding PhoneNumber}" Width="*"/>
                                         <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="*"/>
                                         <DataGridTextColumn Header="Password" Binding="{Binding Password}" Width="*"/>
@@ -114,14 +113,13 @@
                                 </Grid.ColumnDefinitions>
 
                                 <DataGrid Name="dtgDisabledCustomers" Margin="10,10,10,10" AutoGenerateColumns="False"
-                          ItemsSource="{Binding DisabledAccounts}"
-                          Grid.ColumnSpan="3">
+                                    Grid.ColumnSpan="3">
                                     <DataGrid.Columns>
                                         <DataGridTextColumn Header="Account ID" Binding="{Binding AccountId}"/>
                                         <DataGridTextColumn Header="Full Name" Binding="{Binding FullName}" Width="*"/>
                                         <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="*"/>
                                         <DataGridTextColumn Header="Gender" Binding="{Binding Gender}" />
-                                        <DataGridTextColumn Header="Day Of Birth" Binding="{Binding DayOfBirth}" Width="*"/>
+                                        <DataGridTextColumn Header="Day Of Birth" Binding="{Binding DayOfBirth, StringFormat=d}" Width="*"/>
                                         <DataGridTextColumn Header="PhoneNumber" Binding="{Binding PhoneNumber}" Width="*"/>
                                         <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="*"/>
                                         <DataGridTextColumn Header="Password" Binding="{Binding Password}" Width="*"/>
@@ -144,7 +142,7 @@
             </TabItem>
 
 
-            <TabItem Header="Product Management" Width="180" Height="40" FontSize="14">
+            <TabItem Header="Phone Management" Width="180" Height="40" FontSize="14">
                 <TabItem.Background>
                     <LinearGradientBrush EndPoint="0,1" ColorInterpolationMode="SRgbLinearInterpolation" SpreadMethod="Pad">
                         <GradientStop Color="#FFF0F0F0"/>
@@ -168,19 +166,19 @@
                            Grid.ColumnSpan="3">
                             <DataGrid.Columns>
                                 <DataGridTextColumn Header="Phone ID" Binding="{Binding ProductPhoneId}"/>
-                                <DataGridTextColumn Header="Brand" Binding="{Binding Category.CategoryName}" Width="*"/>
+                                <DataGridTextColumn Header="Brand" Binding="{Binding Category.CategoryName}" />
                                 <DataGridTextColumn Header="Phone Name" Binding="{Binding ProductPhoneName}" Width="*"/>
                                 <DataGridTextColumn Header="Price" Binding="{Binding PhonePrice}" Width="*"/>
-                                <DataGridTextColumn Header="Quantity" Binding="{Binding PhoneQuantity}" Width="*"/>
-                                <DataGridTextColumn Header="Ram" Binding="{Binding RamPhone}" Width="*"/>
-                                <DataGridTextColumn Header="Memory" Binding="{Binding MemoryPhone}" Width="*"/>
-                                <DataGridTextColumn Header="Description" Binding="{Binding PhoneDescription}" Width="*"/>
+                                <DataGridTextColumn Header="Quantity" Binding="{Binding PhoneQuantity}" />
+                                <DataGridTextColumn Header="Ram" Binding="{Binding RamPhone}"/>
+                                <DataGridTextColumn Header="Memory" Binding="{Binding MemoryPhone}"/>
+                                <DataGridTextColumn Header="Description" Binding="{Binding PhoneDescription}" Width="2*"/>
 
                                 <DataGridTemplateColumn Header="Actions" Width="*">
                                     <DataGridTemplateColumn.CellTemplate>
                                         <DataTemplate>
                                             <StackPanel Orientation="Horizontal">
-                                                <Button Click="Edit_Click_Product" Content="Edit" Background="#FFA500" Width="80" Height="30"/>
+                                                <Button Click="Update_Click_Product" Content="Update" Background="#FFA500" Width="80" Height="30"/>
                                                 <Button Click="Delete_Click_Product" Content="Delete" Background="#FF4500" Margin="5,0,0,0" Width="80" Height="30"/>
                                             </StackPanel>
                                         </DataTemplate>
@@ -192,7 +190,7 @@
                 </StackPanel>
             </TabItem>
 
-            <TabItem Header="Category Management" Width="180" Height="40" FontSize="14">
+            <TabItem Header="Brand Management" Width="180" Height="40" FontSize="14">
                 <TabItem.Background>
                     <LinearGradientBrush EndPoint="0,1" ColorInterpolationMode="SRgbLinearInterpolation" SpreadMethod="Pad">
                         <GradientStop Color="#FFF0F0F0"/>
@@ -222,7 +220,7 @@
                                     <DataGridTemplateColumn.CellTemplate>
                                         <DataTemplate>
                                             <StackPanel Orientation="Horizontal">
-                                                <Button Click="Edit_Click_Category" Content="Edit" Background="#FFA500" Width="80" Height="30"/>
+                                                <Button Click="Update_Click_Category" Content="Edit" Background="#FFA500" Width="80" Height="30"/>
                                                 <Button Click="Delete_Click_Category" Content="Delete" Background="#FF4500" Margin="5,0,0,0" Width="80" Height="30"/>
                                             </StackPanel>
                                         </DataTemplate>
@@ -251,11 +249,10 @@
                         </Grid.ColumnDefinitions>
 
                         <DataGrid Name="dtgOrders" Margin="10,10,10,10" AutoGenerateColumns="False" 
-                Grid.ColumnSpan="3">
+                    Grid.ColumnSpan="3">
                             <DataGrid.Columns>
                                 <DataGridTextColumn Header="Order ID" Binding="{Binding Order.OrderId}"/>
                                 <DataGridTextColumn Header="Order Date" Binding="{Binding Order.OrderDate}" Width="*"/>
-                                <DataGridTextColumn Header="Start Date" Binding="{Binding Order.StartDate}" Width="*"/>
                                 <DataGridTextColumn Header="Customer Name" Binding="{Binding Order.Account.FullName}" Width="*"/>
                                 <DataGridTextColumn Header="Phone ID" Binding="{Binding Product.ProductPhoneId}" Width="*"/>
                                 <DataGridTextColumn Header="Phone Name" Binding="{Binding Product.ProductPhoneName}" Width="*"/>

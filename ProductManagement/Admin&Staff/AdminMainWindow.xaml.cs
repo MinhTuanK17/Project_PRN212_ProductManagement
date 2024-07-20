@@ -1,5 +1,7 @@
 ﻿using BusinessObject;
+using ProductManagement.Admin_Staff.ManageCategory;
 using ProductManagement.Admin_Staff.ManageCustomer;
+using ProductManagement.Admin_Staff.ManageProduct;
 using Repositories.AccountR;
 using Repositories.CategoryR;
 using Repositories.OrderDetailR;
@@ -31,8 +33,8 @@ namespace ProductManagement.Admin_Staff
         {
             LoadCustomers();
             LoadProducts();
-            LoadCategory();
-            LoadOrder();
+            LoadCategories();
+            LoadOrders();
         }
         public async void LoadCustomers()
         {
@@ -62,7 +64,7 @@ namespace ProductManagement.Admin_Staff
             }
         }
 
-        public async void LoadCategory()
+        public async void LoadCategories()
         {
             try
             {
@@ -75,7 +77,7 @@ namespace ProductManagement.Admin_Staff
             }
         }
 
-        public async void LoadOrder()
+        public async void LoadOrders()
         {
             try
             {
@@ -139,7 +141,7 @@ namespace ProductManagement.Admin_Staff
         {
             try
             {
-                Account selectedCustomer = (Account)dtgActiveCustomers.SelectedItem;
+                Account selectedCustomer = (Account)dtgDisabledCustomers.SelectedItem;
                 Account customer = await accountRepository.GetAccountById(selectedCustomer.AccountId);
                 if (customer != null)
                 {
@@ -171,40 +173,136 @@ namespace ProductManagement.Admin_Staff
             LoginWindow login = new LoginWindow();
             login.Show();
         }
+        
         // Management Product
         private void Add_Click_Product(object sender, MouseButtonEventArgs e)
         {
-            
+            AddNewProduct addNewProduct = new AddNewProduct();
+            addNewProduct.Closed += (s, args) => LoadProducts();
+            addNewProduct.Show();
         }
         private async void Delete_Click_Product(object sender, RoutedEventArgs e)
         {
-            
+            try
+            {
+                Product selectedPhone = (Product)dtgProducts.SelectedItem;
+                Product phone = await productRepository.GetProductById(selectedPhone.ProductPhoneId);
+                if (phone != null)
+                {
+                    MessageBoxResult result = MessageBox.Show($"Do you want to delete this phone?",
+                                                        "Confirm Deleting",
+                                                        MessageBoxButton.YesNo,
+                                                        MessageBoxImage.Question);
+                    if (result == MessageBoxResult.Yes)
+                    {
+                        await productRepository.DeleteProduct(phone);
+                        MessageBox.Show("Phone deleted successfully.");
+                        LoadProducts();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Please select a phone to delete.", "Delete Error");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Cannot delete phone: " + ex.Message, "Delete Error");
+            }
         }
-        private void Edit_Click_Product(object sender, RoutedEventArgs e)
+        private void Update_Click_Product(object sender, RoutedEventArgs e)
         {
-           
+            Product selectProduct = (sender as FrameworkElement)?.DataContext as Product;
+
+            if (selectProduct != null)
+            {
+                UpdateProduct updatePhone = new UpdateProduct();
+                updatePhone.LoadProductData(selectProduct);
+                updatePhone.Closed += (s, args) => LoadProducts();
+                updatePhone.Show();
+            }
         }
 
         // Management Category
         private void Add_Click_Category(object sender, MouseButtonEventArgs e)
         {
-            
+            AddNewCategory addNewCategory = new AddNewCategory();
+            addNewCategory.Closed += (s, args) => LoadCategories();
+            addNewCategory.Show();
         }
 
-        private void Edit_Click_Category(object sender, RoutedEventArgs e)
+        private void Update_Click_Category(object sender, RoutedEventArgs e)
         {
-           
+            Category selectBrand = (sender as FrameworkElement)?.DataContext as Category;
+
+            if (selectBrand != null)
+            {
+                UpdateCategory updateBrand = new UpdateCategory();
+                updateBrand.LoadCategoryData(selectBrand);
+                updateBrand.Closed += (s, args) => LoadCategories();
+                updateBrand.Show();
+            }
         }
         private async void Delete_Click_Category(object sender, RoutedEventArgs e)
         {
-
+            try
+            {
+                Category selectedBrand = (Category)dtgCategories.SelectedItem;
+                Category brand = await categoryRepository.GetCategoryById(selectedBrand.CategoryId);
+                if (brand != null)
+                {
+                    MessageBoxResult result = MessageBox.Show($"Do you want to delete this Brand?",
+                                                        "Confirm Deleting",
+                                                        MessageBoxButton.YesNo,
+                                                        MessageBoxImage.Question);
+                    if (result == MessageBoxResult.Yes)
+                    {
+                        await categoryRepository.DeleteCategory(brand);
+                        MessageBox.Show("Brand deleted successfully.");
+                        LoadCategories();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Please select a brand to delete.", "Delete Error");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Cannot delete brand: " + ex.Message, "Delete Error");
+            }
         }
 
         //Management Order
         private async void Delete_Click_Orders(object sender, RoutedEventArgs e)
         {
-          
-           
+            try
+            {
+                OrderDetail selectedOrder = (OrderDetail)dtgOrders.SelectedItem;
+                OrderDetail ordering = await orderDetailRepository.GetOrderDetailById(selectedOrder.OrderId, selectedOrder.ProductPhoneId);
+                if (ordering != null)
+                {
+                    MessageBoxResult result = MessageBox.Show($"Do you want to delete this order?",
+                                                        "Confirm Deleting",
+                                                        MessageBoxButton.YesNo,
+                                                        MessageBoxImage.Question);
+                    if (result == MessageBoxResult.Yes)
+                    {
+                        await orderDetailRepository.DeleteOrderDetail(ordering);
+                        MessageBox.Show("Order deleted successfully.");
+                        LoadOrders();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Please select a order to delete.", "Delete Error");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Cannot delete order: " + ex.Message, "Delete Error");
+            }
+
         }
 
     }

@@ -1,16 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using BusinessObject;
+using Repositories.CategoryR;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace ProductManagement.Admin_Staff.ManageCategory
 {
@@ -19,9 +9,34 @@ namespace ProductManagement.Admin_Staff.ManageCategory
     /// </summary>
     public partial class AddNewCategory : Window
     {
+        private readonly ICategoryRepository categoryRepository;
+
         public AddNewCategory()
         {
             InitializeComponent();
+            categoryRepository = new CategoryRepository();
+        }
+        private void Cancel_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+        private async void Save_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Category brand = new Category
+                {
+                    CategoryName = txtBrand.Text,
+                };
+
+                await categoryRepository.InsertCategory(brand);
+                MessageBox.Show("Add Brand Successfully!", "Note");
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Valid input is incorrect", "Can not add brand");
+            }
         }
     }
 }
