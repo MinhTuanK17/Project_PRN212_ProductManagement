@@ -62,43 +62,84 @@
                 </TabItem.Background>
 
                 <StackPanel>
-                    <Border BorderBrush="Black" BorderThickness="1" CornerRadius="50" Width="43" Height="43" Margin="10,10,18,10" Background="White" HorizontalAlignment="Right"
-                        MouseLeftButtonDown="Add_Click_Customer">
+                    <Border BorderBrush="Black" BorderThickness="1" CornerRadius="50" Width="43" Height="43" Margin="10,10,18,10" Background="White" HorizontalAlignment="Right" MouseLeftButtonDown="Add_Click_Customer">
                         <materialDesign:PackIcon Kind="Plus" Width="24" Height="24" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                     </Border>
-                    <Grid Height="600">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="81*"/>
-                            <ColumnDefinition Width="211*"/>
-                            <ColumnDefinition Width="583*"/>
-                        </Grid.ColumnDefinitions>
 
-                        <DataGrid Name="dtgCustomers" Margin="10,10,10,10" AutoGenerateColumns="False" 
-                          ItemsSource="{Binding Account}" 
+                    <TabControl>
+                        <!-- Tab for Active Accounts -->
+                        <TabItem Header="Active Accounts">
+                            <Grid Height="600">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="81*"/>
+                                    <ColumnDefinition Width="211*"/>
+                                    <ColumnDefinition Width="583*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <DataGrid Name="dtgActiveCustomers" Margin="10,10,10,10" AutoGenerateColumns="False"
+                                  ItemsSource="{Binding ActiveAccounts}"
+                                  Grid.ColumnSpan="3">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Account ID" Binding="{Binding AccountId}"/>
+                                        <DataGridTextColumn Header="Full Name" Binding="{Binding FullName}" Width="*"/>
+                                        <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="*"/>
+                                        <DataGridTextColumn Header="Gender" Binding="{Binding Gender}" />
+                                        <DataGridTextColumn Header="Day Of Birth" Binding="{Binding DayOfBirth}" Width="*"/>
+                                        <DataGridTextColumn Header="PhoneNumber" Binding="{Binding PhoneNumber}" Width="*"/>
+                                        <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="*"/>
+                                        <DataGridTextColumn Header="Password" Binding="{Binding Password}" Width="*"/>
+
+                                        <DataGridTemplateColumn Header="Actions" Width="*">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <Button Click="Edit_Click_Customer" Content="Edit" Background="#FFA500" Width="80" Height="30"/>
+                                                        <Button Click="Disable_Click_Customer" Content="Disable" Background="#FF4500" Margin="5,0,0,0" Width="80" Height="30"/>
+                                                    </StackPanel>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+
+                        <!-- Tab for Disabled Accounts -->
+                        <TabItem Header="Disabled Accounts">
+                            <Grid Height="600">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="81*"/>
+                                    <ColumnDefinition Width="211*"/>
+                                    <ColumnDefinition Width="583*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <DataGrid Name="dtgDisabledCustomers" Margin="10,10,10,10" AutoGenerateColumns="False"
+                          ItemsSource="{Binding DisabledAccounts}"
                           Grid.ColumnSpan="3">
-                            <DataGrid.Columns>
-                                <DataGridTextColumn Header="Account ID" Binding="{Binding AccountId}"/>
-                                <DataGridTextColumn Header="Full Name" Binding="{Binding FullName}" Width="*"/>
-                                <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="*"/>
-                                <DataGridTextColumn Header="Gender" Binding="{Binding Gender}" Width="*"/>
-                                <DataGridTextColumn Header="Day Of Birth" Binding="{Binding DayOfBirth}" Width="*"/>
-                                <DataGridTextColumn Header="PhoneNumber" Binding="{Binding PhoneNumber}" Width="*"/>
-                                <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="*"/>
-                                <DataGridTextColumn Header="Password" Binding="{Binding Password}" Width="*"/>
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Account ID" Binding="{Binding AccountId}"/>
+                                        <DataGridTextColumn Header="Full Name" Binding="{Binding FullName}" Width="*"/>
+                                        <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="*"/>
+                                        <DataGridTextColumn Header="Gender" Binding="{Binding Gender}" />
+                                        <DataGridTextColumn Header="Day Of Birth" Binding="{Binding DayOfBirth}" Width="*"/>
+                                        <DataGridTextColumn Header="PhoneNumber" Binding="{Binding PhoneNumber}" Width="*"/>
+                                        <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="*"/>
+                                        <DataGridTextColumn Header="Password" Binding="{Binding Password}" Width="*"/>
 
-                                <DataGridTemplateColumn Header="Actions" Width="*">
-                                    <DataGridTemplateColumn.CellTemplate>
-                                        <DataTemplate>
-                                            <StackPanel Orientation="Horizontal">
-                                                <Button Click="Edit_Click_Customer" Content="Edit" Background="#FFA500" Width="80" Height="30"/>
-                                                <Button Click="Delete_Click_Customer" Content="Delete" Background="#FF4500" Margin="5,0,0,0" Width="80" Height="30"/>
-                                            </StackPanel>
-                                        </DataTemplate>
-                                    </DataGridTemplateColumn.CellTemplate>
-                                </DataGridTemplateColumn>
-                            </DataGrid.Columns>
-                        </DataGrid>
-                    </Grid>
+                                        <DataGridTemplateColumn Header="Actions" Width="*">
+                                            <DataGridTemplateColumn.CellTemplate>
+                                                <DataTemplate>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <Button Click="Enable_Click_Customer" Content="Enable" Background="#008000" Margin="5,0,0,0" Width="80" Height="30"/>
+                                                    </StackPanel>
+                                                </DataTemplate>
+                                            </DataGridTemplateColumn.CellTemplate>
+                                        </DataGridTemplateColumn>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
                 </StackPanel>
             </TabItem>
 
@@ -214,7 +255,7 @@
                             <DataGrid.Columns>
                                 <DataGridTextColumn Header="Order ID" Binding="{Binding Order.OrderId}"/>
                                 <DataGridTextColumn Header="Order Date" Binding="{Binding Order.OrderDate}" Width="*"/>
-                                <DataGridTextColumn Header="Start Date" Binding="{Binding StartDate}" Width="*"/>
+                                <DataGridTextColumn Header="Start Date" Binding="{Binding Order.StartDate}" Width="*"/>
                                 <DataGridTextColumn Header="Customer Name" Binding="{Binding Order.Account.FullName}" Width="*"/>
                                 <DataGridTextColumn Header="Phone ID" Binding="{Binding Product.ProductPhoneId}" Width="*"/>
                                 <DataGridTextColumn Header="Phone Name" Binding="{Binding Product.ProductPhoneName}" Width="*"/>

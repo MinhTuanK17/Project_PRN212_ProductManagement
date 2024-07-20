@@ -14,10 +14,11 @@ namespace Repositories.AccountR
         Task<bool> CheckLogin(string email, string password);
         Task<bool> CheckStaff(string email);
         Task<bool> AuthenticateUser(string email, string password);
-        Task<List<Account>> GetAllAccountCustomer();
+        Task<List<Account>> GetAllActiveAccountCustomer();
+        Task<List<Account>> GetAllADisableAccountCustomer();
         Task AddAccountCustomer(Account account);
         Task UpdateAccountCustomer(Account account);
         Task DisableAccountCustomer(Account account);
-
+        Task EnableAccountCustomer(Account account);
     }
 }

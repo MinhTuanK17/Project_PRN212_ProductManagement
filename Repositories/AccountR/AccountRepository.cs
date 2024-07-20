@@ -20,12 +20,17 @@ namespace Repositories.AccountR
 
         public async Task DisableAccountCustomer(Account account) => await AccountDAO.Instance.DisableAccountCustomer(account);
 
+        public async Task EnableAccountCustomer(Account account) => await AccountDAO.Instance.EnableAccountCustomer(account);
+
         public async Task<Account> GetAccountByEmail(string email) => await AccountDAO.Instance.GetAccountByEmail(email);
 
         public async Task<Account> GetAccountById(int accountId) => await AccountDAO.Instance.GetAccountById(accountId);
 
-        public async Task<List<Account>> GetAllAccountCustomer() => await AccountDAO.Instance.GetAllAccountCustomer();
+        public async Task<List<Account>> GetAllActiveAccountCustomer() => await AccountDAO.Instance.GetAllActiveAccountCustomer();
+
+        public async Task<List<Account>> GetAllADisableAccountCustomer() => await AccountDAO.Instance.GetAllADisableAccountCustomer();
 
         public async Task UpdateAccountCustomer(Account account) => await AccountDAO.Instance.UpdateAccountCustomer(account);
+
     }
 }

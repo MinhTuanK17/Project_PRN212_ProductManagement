@@ -77,10 +77,15 @@ namespace DataLayerAccess
             }
         }
 
-        public async Task<List<Account>> GetAllAccountCustomer()
+        public async Task<List<Account>> GetAllActiveAccountCustomer()
         {
             _context = new();
             return await _context.Accounts.AsNoTracking().Where(a => a.RoleId == 1).ToListAsync();
+        }
+        public async Task<List<Account>> GetAllADisableAccountCustomer()
+        {
+            _context = new();
+            return await _context.Accounts.AsNoTracking().Where(a => a.RoleId == 4).ToListAsync();
         }
 
         public async Task AddAccountCustomer(Account account)
@@ -129,6 +134,22 @@ namespace DataLayerAccess
                 throw new Exception("Error blocked account customer: " + e.Message);
             }
         }
-
+        public async Task EnableAccountCustomer(Account account)
+        {
+            try
+            {
+                _context = new();
+                var findAccount = await GetAccountById(account.AccountId);
+                if (findAccount != null)
+                {
+                    findAccount.RoleId = 1;
+                    await _context.SaveChangesAsync();
+                }
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Error blocked account customer: " + e.Message);
+            }
+        }
     }
 }

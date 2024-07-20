@@ -1,4 +1,6 @@
-﻿using Repositories.AccountR;
+﻿using BusinessObject;
+using ProductManagement.Admin_Staff.ManageCustomer;
+using Repositories.AccountR;
 using Repositories.CategoryR;
 using Repositories.OrderDetailR;
 using Repositories.ProductR;
@@ -36,8 +38,10 @@ namespace ProductManagement.Admin_Staff
         {
             try
             {
-                var customerList = await accountRepository.GetAllAccountCustomer();
-                dtgCustomers.ItemsSource = customerList;
+                var customerActiveList = await accountRepository.GetAllActiveAccountCustomer();
+                var customerDisableList = await accountRepository.GetAllADisableAccountCustomer();
+                dtgActiveCustomers.ItemsSource = customerActiveList;
+                dtgDisabledCustomers.ItemsSource = customerDisableList;
             }
             catch (Exception ex)
             {
@@ -86,16 +90,81 @@ namespace ProductManagement.Admin_Staff
         // Management Customer
         private void Add_Click_Customer(object sender, MouseButtonEventArgs e)
         {
-           
+            AddNewCustomer addNewCustomer = new AddNewCustomer();
+            addNewCustomer.Closed += (s, args) => LoadCustomers();
+            addNewCustomer.Show();
         }
         private void Edit_Click_Customer(object sender, RoutedEventArgs e)
         {
+            Account? selectedCustomer = (sender as FrameworkElement)?.DataContext as Account;
 
+            if (selectedCustomer != null)
+            {
+                EditCustomer editCustomer = new EditCustomer();
+                editCustomer.LoadCustomerData(selectedCustomer);
+                editCustomer.Closed += (s, args) => LoadCustomers();
+                editCustomer.Show();
+            }
         }
-        private async void Delete_Click_Customer(object sender, RoutedEventArgs e)
+        private async void Disable_Click_Customer(object sender, RoutedEventArgs e)
         {
-            
+            try
+            {
+                Account selectedCustomer = (Account)dtgActiveCustomers.SelectedItem;
+                Account customer = await accountRepository.GetAccountById(selectedCustomer.AccountId);
+                if (customer != null)
+                {
+                    MessageBoxResult result = MessageBox.Show($"Do you want to disable this customer?",
+                                                        "Confirm Disabling",
+                                                        MessageBoxButton.YesNo,
+                                                        MessageBoxImage.Question);
+                    if (result == MessageBoxResult.Yes)
+                    {
+                        await accountRepository.DisableAccountCustomer(customer);
+                        MessageBox.Show("Customer disabled successfully.");
+                        LoadCustomers();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Please select a customer to disable.", "Disable Error");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Cannot disable customer: " + ex.Message, "Disable Error");
+            }
         }
+        private async void Enable_Click_Customer(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Account selectedCustomer = (Account)dtgActiveCustomers.SelectedItem;
+                Account customer = await accountRepository.GetAccountById(selectedCustomer.AccountId);
+                if (customer != null)
+                {
+                    MessageBoxResult result = MessageBox.Show($"Do you want to enable this customer?",
+                                                        "Confirm Enabling",
+                                                        MessageBoxButton.YesNo,
+                                                        MessageBoxImage.Question);
+                    if (result == MessageBoxResult.Yes)
+                    {
+                        await accountRepository.EnableAccountCustomer(customer);
+                        MessageBox.Show("Customer enable successfully.");
+                        LoadCustomers();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Please select a customer to enable.", "Enable Error");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Cannot enable customer: " + ex.Message, "Enable Error");
+            }
+        }
+
         private void Logout_Click(object sender, RoutedEventArgs e)
         {
             this.Hide();
