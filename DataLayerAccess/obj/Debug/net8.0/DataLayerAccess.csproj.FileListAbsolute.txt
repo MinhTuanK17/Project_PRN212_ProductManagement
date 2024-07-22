@@ -14,3 +14,20 @@ D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManageme
 D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManagement\DataLayerAccess\obj\Debug\net8.0\refint\DataLayerAccess.dll
 D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManagement\DataLayerAccess\obj\Debug\net8.0\DataLayerAccess.pdb
 D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManagement\DataLayerAccess\obj\Debug\net8.0\ref\DataLayerAccess.dll
+D:\PRN212\PRN_Project\Project_PRN212_ProductManagement\DataLayerAccess\bin\Debug\net8.0\appsettings.json
+D:\PRN212\PRN_Project\Project_PRN212_ProductManagement\DataLayerAccess\bin\Debug\net8.0\DataLayerAccess.deps.json
+D:\PRN212\PRN_Project\Project_PRN212_ProductManagement\DataLayerAccess\bin\Debug\net8.0\DataLayerAccess.dll
+D:\PRN212\PRN_Project\Project_PRN212_ProductManagement\DataLayerAccess\bin\Debug\net8.0\DataLayerAccess.pdb
+D:\PRN212\PRN_Project\Project_PRN212_ProductManagement\DataLayerAccess\bin\Debug\net8.0\BusinessObject.dll
+D:\PRN212\PRN_Project\Project_PRN212_ProductManagement\DataLayerAccess\bin\Debug\net8.0\BusinessObject.pdb
+D:\PRN212\PRN_Project\Project_PRN212_ProductManagement\DataLayerAccess\obj\Debug\net8.0\DataLayerAccess.csproj.AssemblyReference.cache
+D:\PRN212\PRN_Project\Project_PRN212_ProductManagement\DataLayerAccess\obj\Debug\net8.0\DataLayerAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRN212\PRN_Project\Project_PRN212_ProductManagement\DataLayerAccess\obj\Debug\net8.0\DataLayerAccess.AssemblyInfoInputs.cache
+D:\PRN212\PRN_Project\Project_PRN212_ProductManagement\DataLayerAccess\obj\Debug\net8.0\DataLayerAccess.AssemblyInfo.cs
+D:\PRN212\PRN_Project\Project_PRN212_ProductManagement\DataLayerAccess\obj\Debug\net8.0\DataLayerAccess.csproj.CoreCompileInputs.cache
+D:\PRN212\PRN_Project\Project_PRN212_ProductManagement\DataLayerAccess\obj\Debug\net8.0\DataLayerAccess.sourcelink.json
+D:\PRN212\PRN_Project\Project_PRN212_ProductManagement\DataLayerAccess\obj\Debug\net8.0\DataLaye.85BA78CB.Up2Date
+D:\PRN212\PRN_Project\Project_PRN212_ProductManagement\DataLayerAccess\obj\Debug\net8.0\DataLayerAccess.dll
+D:\PRN212\PRN_Project\Project_PRN212_ProductManagement\DataLayerAccess\obj\Debug\net8.0\refint\DataLayerAccess.dll
+D:\PRN212\PRN_Project\Project_PRN212_ProductManagement\DataLayerAccess\obj\Debug\net8.0\DataLayerAccess.pdb
+D:\PRN212\PRN_Project\Project_PRN212_ProductManagement\DataLayerAccess\obj\Debug\net8.0\ref\DataLayerAccess.dll

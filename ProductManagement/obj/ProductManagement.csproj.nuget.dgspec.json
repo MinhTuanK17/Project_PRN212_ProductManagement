@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\ProductManagement.csproj": {}
+    "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\ProductManagement.csproj": {}
   },
   "projects": {
-    "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\BusinessObject.csproj": {
+    "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\BusinessObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\BusinessObject.csproj",
+        "projectUniqueName": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\BusinessObject.csproj",
         "projectName": "BusinessObject",
-        "projectPath": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\BusinessObject.csproj",
-        "packagesPath": "C:\\Users\\MINH TUAN\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\obj\\",
+        "projectPath": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\BusinessObject.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MINH TUAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -86,21 +91,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\DataLayerAccess\\DataLayerAccess.csproj": {
+    "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\DataLayerAccess\\DataLayerAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\DataLayerAccess\\DataLayerAccess.csproj",
+        "projectUniqueName": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\DataLayerAccess\\DataLayerAccess.csproj",
         "projectName": "DataLayerAccess",
-        "projectPath": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\DataLayerAccess\\DataLayerAccess.csproj",
-        "packagesPath": "C:\\Users\\MINH TUAN\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\DataLayerAccess\\obj\\",
+        "projectPath": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\DataLayerAccess\\DataLayerAccess.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\DataLayerAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MINH TUAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,14 +117,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\BusinessObject.csproj"
+              "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\BusinessObject.csproj"
               }
             }
           }
@@ -150,21 +160,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\ProductManagement.csproj": {
+    "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\ProductManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\ProductManagement.csproj",
+        "projectUniqueName": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\ProductManagement.csproj",
         "projectName": "ProductManagement",
-        "projectPath": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\ProductManagement.csproj",
-        "packagesPath": "C:\\Users\\MINH TUAN\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\obj\\",
+        "projectPath": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\ProductManagement.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MINH TUAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -172,17 +186,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\BusinessObject.csproj"
+              "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\BusinessObject.csproj"
               },
-              "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\Repositories\\Repositories.csproj": {
-                "projectPath": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\Repositories\\Repositories.csproj"
+              "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\Repositories\\Repositories.csproj": {
+                "projectPath": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\Repositories\\Repositories.csproj"
               }
             }
           }
@@ -230,21 +245,25 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\Repositories\\Repositories.csproj": {
+    "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\MINH TUAN\\.nuget\\packages\\",
-        "outputPath": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\Repositories\\obj\\",
+        "projectPath": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MINH TUAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -252,17 +271,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\BusinessObject.csproj": {
-                "projectPath": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\BusinessObject.csproj"
+              "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\BusinessObject.csproj": {
+                "projectPath": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\BusinessObject.csproj"
               },
-              "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\DataLayerAccess\\DataLayerAccess.csproj": {
-                "projectPath": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\DataLayerAccess\\DataLayerAccess.csproj"
+              "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\DataLayerAccess\\DataLayerAccess.csproj": {
+                "projectPath": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\DataLayerAccess\\DataLayerAccess.csproj"
               }
             }
           }
@@ -297,7 +317,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

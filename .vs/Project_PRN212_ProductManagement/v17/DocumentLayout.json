@@ -1,149 +1,149 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\",
+  "WorkspaceRootPath": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|d:\\fpt_uni\\prn211\\csharp (c#)\\assignment in class\\project_prn212_productmanagement\\productmanagement\\customer\\manageprofile\\updateprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\customer\\manageprofile\\updateprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\productmanagement\\customer\\customermainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\customer\\customermainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\productmanagement\\admin\u0026staff\\manageproduct\\addnewproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\admin\u0026staff\\manageproduct\\addnewproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\productmanagement\\admin\u0026staff\\manageproduct\\updateproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\admin\u0026staff\\manageproduct\\updateproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\productmanagement\\admin\u0026staff\\adminmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\admin\u0026staff\\adminmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\productmanagement\\admin\u0026staff\\managecustomer\\editcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\admin\u0026staff\\managecustomer\\editcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\productmanagement\\admin\u0026staff\\managecustomer\\addnewcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\admin\u0026staff\\managecustomer\\addnewcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\productmanagement\\admin\u0026staff\\managecategory\\addnewcategory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\admin\u0026staff\\managecategory\\addnewcategory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\productmanagement\\admin\u0026staff\\managecategory\\updatecategory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|d:\\prn212\\prn_project\\project_prn212_productmanagement\\productmanagement\\admin\u0026staff\\managecategory\\updatecategory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\admin\u0026staff\\managecategory\\updatecategory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\productmanagement\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\productmanagement\\admin\u0026staff\\managecategory\\addnewcategory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\admin\u0026staff\\managecategory\\addnewcategory.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\businessobject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\businessobject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\productmanagement\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\productmanagement\\admin\u0026staff\\adminmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\admin\u0026staff\\adminmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\productmanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\productmanagement\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\productmanagement\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\businessobject\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\productmanagement\\customer\\manageprofile\\updateprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\customer\\manageprofile\\updateprofile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\productmanagement\\customer\\customermainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\customer\\customermainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\productmanagement\\admin\u0026staff\\manageproduct\\addnewproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\admin\u0026staff\\manageproduct\\addnewproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\productmanagement\\admin\u0026staff\\manageproduct\\updateproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\admin\u0026staff\\manageproduct\\updateproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\productmanagement\\admin\u0026staff\\managecustomer\\editcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\admin\u0026staff\\managecustomer\\editcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\productmanagement\\admin\u0026staff\\managecustomer\\addnewcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\admin\u0026staff\\managecustomer\\addnewcustomer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\productmanagement\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\productmanagement\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\productmanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\businessobject\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\businessobject\\configurations\\accountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\businessobject\\configurations\\accountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\configurations\\accountconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\productmanagement\\admin\u0026staff\\adminmainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\productmanagement\\admin\u0026staff\\adminmainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1359416-5749-4AFD-9D76-7F3201564988}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\admin\u0026staff\\adminmainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\businessobject\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\businessobject\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\businessobject\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\businessobject\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\businessobject\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\businessobject\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\businessobject\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\businessobject\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\businessobject\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\businessobject\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CF988BD-1587-4AC0-9039-5CCA1C6858BB}|Repositories\\Repositories.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\repositories\\orderdetailr\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CF988BD-1587-4AC0-9039-5CCA1C6858BB}|Repositories\\Repositories.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\repositories\\orderdetailr\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CF988BD-1587-4AC0-9039-5CCA1C6858BB}|Repositories\\Repositories.csproj|solutionrelative:repositories\\orderdetailr\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CF988BD-1587-4AC0-9039-5CCA1C6858BB}|Repositories\\Repositories.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\repositories\\orderdetailr\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CF988BD-1587-4AC0-9039-5CCA1C6858BB}|Repositories\\Repositories.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\repositories\\orderdetailr\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CF988BD-1587-4AC0-9039-5CCA1C6858BB}|Repositories\\Repositories.csproj|solutionrelative:repositories\\orderdetailr\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CF988BD-1587-4AC0-9039-5CCA1C6858BB}|Repositories\\Repositories.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\repositories\\productr\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CF988BD-1587-4AC0-9039-5CCA1C6858BB}|Repositories\\Repositories.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\repositories\\productr\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CF988BD-1587-4AC0-9039-5CCA1C6858BB}|Repositories\\Repositories.csproj|solutionrelative:repositories\\productr\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CF988BD-1587-4AC0-9039-5CCA1C6858BB}|Repositories\\Repositories.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\repositories\\productr\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7CF988BD-1587-4AC0-9039-5CCA1C6858BB}|Repositories\\Repositories.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\repositories\\productr\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CF988BD-1587-4AC0-9039-5CCA1C6858BB}|Repositories\\Repositories.csproj|solutionrelative:repositories\\productr\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31663889-AAAC-4E70-A5D8-D18545608CC6}|DataLayerAccess\\DataLayerAccess.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\datalayeraccess\\orderdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31663889-AAAC-4E70-A5D8-D18545608CC6}|DataLayerAccess\\DataLayerAccess.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\datalayeraccess\\orderdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31663889-AAAC-4E70-A5D8-D18545608CC6}|DataLayerAccess\\DataLayerAccess.csproj|solutionrelative:datalayeraccess\\orderdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7CF988BD-1587-4AC0-9039-5CCA1C6858BB}|Repositories\\Repositories.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{7CF988BD-1587-4AC0-9039-5CCA1C6858BB}|Repositories\\Repositories.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{7CF988BD-1587-4AC0-9039-5CCA1C6858BB}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31663889-AAAC-4E70-A5D8-D18545608CC6}|DataLayerAccess\\DataLayerAccess.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\datalayeraccess\\datalayeraccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{31663889-AAAC-4E70-A5D8-D18545608CC6}|DataLayerAccess\\DataLayerAccess.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\datalayeraccess\\datalayeraccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{31663889-AAAC-4E70-A5D8-D18545608CC6}|DataLayerAccess\\DataLayerAccess.csproj|solutionrelative:datalayeraccess\\datalayeraccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\businessobject\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\businessobject\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\businessobject\\common\\myphonedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\businessobject\\common\\myphonedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\common\\myphonedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\businessobject\\common\\adminaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\businessobject\\common\\adminaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\common\\adminaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\businessobject\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\businessobject\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\businessobject\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\businessobject\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\businessobject\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\businessobject\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\businessobject\\configurations\\orderdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\businessobject\\configurations\\orderdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F3F7A741-4045-4C87-A2DB-9214C28D042C}|BusinessObject\\BusinessObject.csproj|solutionrelative:businessobject\\configurations\\orderdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -158,30 +158,82 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpdateProduct.xaml",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageProduct\\UpdateProduct.xaml",
-              "RelativeDocumentMoniker": "ProductManagement\\Admin\u0026Staff\\ManageProduct\\UpdateProduct.xaml",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageProduct\\UpdateProduct.xaml",
-              "RelativeToolTip": "ProductManagement\\Admin\u0026Staff\\ManageProduct\\UpdateProduct.xaml",
+              "DocumentIndex": 7,
+              "Title": "AddNewProduct.xaml",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageProduct\\AddNewProduct.xaml",
+              "RelativeDocumentMoniker": "ProductManagement\\Admin\u0026Staff\\ManageProduct\\AddNewProduct.xaml",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageProduct\\AddNewProduct.xaml",
+              "RelativeToolTip": "ProductManagement\\Admin\u0026Staff\\ManageProduct\\AddNewProduct.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-19T13:24:17.709Z"
+              "WhenOpened": "2024-07-19T13:22:46.415Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "CustomerMainWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Customer\\CustomerMainWindow.xaml",
+              "RelativeDocumentMoniker": "ProductManagement\\Customer\\CustomerMainWindow.xaml",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Customer\\CustomerMainWindow.xaml",
+              "RelativeToolTip": "ProductManagement\\Customer\\CustomerMainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T13:54:50.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateProfile.xaml",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Customer\\ManageProfile\\UpdateProfile.xaml",
+              "RelativeDocumentMoniker": "ProductManagement\\Customer\\ManageProfile\\UpdateProfile.xaml",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Customer\\ManageProfile\\UpdateProfile.xaml",
+              "RelativeToolTip": "ProductManagement\\Customer\\ManageProfile\\UpdateProfile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T13:29:32.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditCustomer.xaml",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageCustomer\\EditCustomer.xaml",
+              "RelativeDocumentMoniker": "ProductManagement\\Admin\u0026Staff\\ManageCustomer\\EditCustomer.xaml",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageCustomer\\EditCustomer.xaml",
+              "RelativeToolTip": "ProductManagement\\Admin\u0026Staff\\ManageCustomer\\EditCustomer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T13:22:15.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddNewCategory.xaml",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageCategory\\AddNewCategory.xaml",
+              "RelativeDocumentMoniker": "ProductManagement\\Admin\u0026Staff\\ManageCategory\\AddNewCategory.xaml",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageCategory\\AddNewCategory.xaml",
+              "RelativeToolTip": "ProductManagement\\Admin\u0026Staff\\ManageCategory\\AddNewCategory.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T13:23:34.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateCategory.xaml",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageCategory\\UpdateCategory.xaml",
+              "RelativeDocumentMoniker": "ProductManagement\\Admin\u0026Staff\\ManageCategory\\UpdateCategory.xaml",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageCategory\\UpdateCategory.xaml",
+              "RelativeToolTip": "ProductManagement\\Admin\u0026Staff\\ManageCategory\\UpdateCategory.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T13:23:55.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AdminMainWindow.xaml",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\AdminMainWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\AdminMainWindow.xaml",
               "RelativeDocumentMoniker": "ProductManagement\\Admin\u0026Staff\\AdminMainWindow.xaml",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\AdminMainWindow.xaml",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\AdminMainWindow.xaml",
               "RelativeToolTip": "ProductManagement\\Admin\u0026Staff\\AdminMainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-19T13:24:34.844Z"
@@ -189,148 +241,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AddNewProduct.xaml",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageProduct\\AddNewProduct.xaml",
-              "RelativeDocumentMoniker": "ProductManagement\\Admin\u0026Staff\\ManageProduct\\AddNewProduct.xaml",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageProduct\\AddNewProduct.xaml",
-              "RelativeToolTip": "ProductManagement\\Admin\u0026Staff\\ManageProduct\\AddNewProduct.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-19T13:22:46.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomerMainWindow.xaml",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Customer\\CustomerMainWindow.xaml",
-              "RelativeDocumentMoniker": "ProductManagement\\Customer\\CustomerMainWindow.xaml",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Customer\\CustomerMainWindow.xaml",
-              "RelativeToolTip": "ProductManagement\\Customer\\CustomerMainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-19T13:54:50.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UpdateProfile.xaml",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Customer\\ManageProfile\\UpdateProfile.xaml",
-              "RelativeDocumentMoniker": "ProductManagement\\Customer\\ManageProfile\\UpdateProfile.xaml",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Customer\\ManageProfile\\UpdateProfile.xaml",
-              "RelativeToolTip": "ProductManagement\\Customer\\ManageProfile\\UpdateProfile.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-19T13:29:32.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EditCustomer.xaml",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageCustomer\\EditCustomer.xaml",
-              "RelativeDocumentMoniker": "ProductManagement\\Admin\u0026Staff\\ManageCustomer\\EditCustomer.xaml",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageCustomer\\EditCustomer.xaml",
-              "RelativeToolTip": "ProductManagement\\Admin\u0026Staff\\ManageCustomer\\EditCustomer.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-19T13:22:15.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddNewCategory.xaml",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageCategory\\AddNewCategory.xaml",
-              "RelativeDocumentMoniker": "ProductManagement\\Admin\u0026Staff\\ManageCategory\\AddNewCategory.xaml",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageCategory\\AddNewCategory.xaml",
-              "RelativeToolTip": "ProductManagement\\Admin\u0026Staff\\ManageCategory\\AddNewCategory.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-19T13:23:34.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UpdateCategory.xaml",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageCategory\\UpdateCategory.xaml",
-              "RelativeDocumentMoniker": "ProductManagement\\Admin\u0026Staff\\ManageCategory\\UpdateCategory.xaml",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageCategory\\UpdateCategory.xaml",
-              "RelativeToolTip": "ProductManagement\\Admin\u0026Staff\\ManageCategory\\UpdateCategory.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-19T13:23:55.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\appsettings.json",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\appsettings.json",
               "RelativeDocumentMoniker": "BusinessObject\\appsettings.json",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\appsettings.json",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\appsettings.json",
               "RelativeToolTip": "BusinessObject\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-07-17T17:17:46.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CategoryConfiguration.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\CategoryConfiguration.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\Configurations\\CategoryConfiguration.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\CategoryConfiguration.cs",
-              "RelativeToolTip": "BusinessObject\\Configurations\\CategoryConfiguration.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAmwBAAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T17:19:58.716Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Category.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\Category.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Category.cs",
-              "RelativeToolTip": "BusinessObject\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T16:21:23.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddNewCustomer.xaml",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageCustomer\\AddNewCustomer.xaml",
-              "RelativeDocumentMoniker": "ProductManagement\\Admin\u0026Staff\\ManageCustomer\\AddNewCustomer.xaml",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageCustomer\\AddNewCustomer.xaml",
-              "RelativeToolTip": "ProductManagement\\Admin\u0026Staff\\ManageCustomer\\AddNewCustomer.xaml",
+              "DocumentIndex": 4,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "ProductManagement\\LoginWindow.xaml",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\LoginWindow.xaml",
+              "RelativeToolTip": "ProductManagement\\LoginWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-19T13:21:46.118Z"
+              "WhenOpened": "2024-07-19T09:02:06.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AccountConfiguration.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\AccountConfiguration.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\Configurations\\AccountConfiguration.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\AccountConfiguration.cs",
-              "RelativeToolTip": "BusinessObject\\Configurations\\AccountConfiguration.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwA0AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T17:20:38.326Z"
+              "DocumentIndex": 8,
+              "Title": "UpdateProduct.xaml",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageProduct\\UpdateProduct.xaml",
+              "RelativeDocumentMoniker": "ProductManagement\\Admin\u0026Staff\\ManageProduct\\UpdateProduct.xaml",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageProduct\\UpdateProduct.xaml",
+              "RelativeToolTip": "ProductManagement\\Admin\u0026Staff\\ManageProduct\\UpdateProduct.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T13:24:17.709Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "OrderDetail.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\OrderDetail.cs",
-              "RelativeDocumentMoniker": "BusinessObject\\OrderDetail.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\OrderDetail.cs",
-              "RelativeToolTip": "BusinessObject\\OrderDetail.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T16:27:26.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "ProductManagement\\AssemblyInfo.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\AssemblyInfo.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\AssemblyInfo.cs",
               "RelativeToolTip": "ProductManagement\\AssemblyInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -340,9 +288,9 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "Product.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Product.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Product.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Product.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Product.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Product.cs",
               "RelativeToolTip": "BusinessObject\\Product.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAzwAgAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -352,9 +300,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "AdminMainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\AdminMainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\AdminMainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ProductManagement\\Admin\u0026Staff\\AdminMainWindow.xaml.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\AdminMainWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\AdminMainWindow.xaml.cs",
               "RelativeToolTip": "ProductManagement\\Admin\u0026Staff\\AdminMainWindow.xaml.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAAwI4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -362,11 +310,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\LoginWindow.xaml.cs",
               "RelativeDocumentMoniker": "ProductManagement\\LoginWindow.xaml.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\LoginWindow.xaml.cs",
               "RelativeToolTip": "ProductManagement\\LoginWindow.xaml.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -374,11 +322,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "App.xaml",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\App.xaml",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\App.xaml",
               "RelativeDocumentMoniker": "ProductManagement\\App.xaml",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\App.xaml",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\App.xaml",
               "RelativeToolTip": "ProductManagement\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-19T09:02:19.079Z",
@@ -386,22 +334,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\LoginWindow.xaml",
-              "RelativeDocumentMoniker": "ProductManagement\\LoginWindow.xaml",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\ProductManagement\\LoginWindow.xaml",
-              "RelativeToolTip": "ProductManagement\\LoginWindow.xaml",
+              "DocumentIndex": 14,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Configurations\\CategoryConfiguration.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "BusinessObject\\Configurations\\CategoryConfiguration.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAmwBAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T17:19:58.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Category.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Category.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Category.cs",
+              "RelativeToolTip": "BusinessObject\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T16:21:23.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddNewCustomer.xaml",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageCustomer\\AddNewCustomer.xaml",
+              "RelativeDocumentMoniker": "ProductManagement\\Admin\u0026Staff\\ManageCustomer\\AddNewCustomer.xaml",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\ProductManagement\\Admin\u0026Staff\\ManageCustomer\\AddNewCustomer.xaml",
+              "RelativeToolTip": "ProductManagement\\Admin\u0026Staff\\ManageCustomer\\AddNewCustomer.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-19T09:02:06.615Z"
+              "WhenOpened": "2024-07-19T13:21:46.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccountConfiguration.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\AccountConfiguration.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\Configurations\\AccountConfiguration.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\AccountConfiguration.cs",
+              "RelativeToolTip": "BusinessObject\\Configurations\\AccountConfiguration.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T17:20:38.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "BusinessObject\\OrderDetail.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\OrderDetail.cs",
+              "RelativeToolTip": "BusinessObject\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T16:27:26.215Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "Order.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Order.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Order.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Order.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Order.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Order.cs",
               "RelativeToolTip": "BusinessObject\\Order.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -411,9 +407,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "Account.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Account.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Account.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Account.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Account.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Account.cs",
               "RelativeToolTip": "BusinessObject\\Account.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -423,9 +419,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "OrderDetailRepository.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\Repositories\\OrderDetailR\\OrderDetailRepository.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\Repositories\\OrderDetailR\\OrderDetailRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\OrderDetailR\\OrderDetailRepository.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\Repositories\\OrderDetailR\\OrderDetailRepository.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\Repositories\\OrderDetailR\\OrderDetailRepository.cs",
               "RelativeToolTip": "Repositories\\OrderDetailR\\OrderDetailRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -435,9 +431,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "IOrderDetailRepository.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\Repositories\\OrderDetailR\\IOrderDetailRepository.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\Repositories\\OrderDetailR\\IOrderDetailRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\OrderDetailR\\IOrderDetailRepository.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\Repositories\\OrderDetailR\\IOrderDetailRepository.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\Repositories\\OrderDetailR\\IOrderDetailRepository.cs",
               "RelativeToolTip": "Repositories\\OrderDetailR\\IOrderDetailRepository.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAA5wBEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -447,9 +443,9 @@
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "IProductRepository.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\Repositories\\ProductR\\IProductRepository.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\Repositories\\ProductR\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ProductR\\IProductRepository.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\Repositories\\ProductR\\IProductRepository.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\Repositories\\ProductR\\IProductRepository.cs",
               "RelativeToolTip": "Repositories\\ProductR\\IProductRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -459,9 +455,9 @@
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "ProductRepository.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\Repositories\\ProductR\\ProductRepository.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\Repositories\\ProductR\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ProductR\\ProductRepository.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\Repositories\\ProductR\\ProductRepository.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\Repositories\\ProductR\\ProductRepository.cs",
               "RelativeToolTip": "Repositories\\ProductR\\ProductRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -471,9 +467,9 @@
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "OrderDetailDAO.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\DataLayerAccess\\OrderDetailDAO.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\DataLayerAccess\\OrderDetailDAO.cs",
               "RelativeDocumentMoniker": "DataLayerAccess\\OrderDetailDAO.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\DataLayerAccess\\OrderDetailDAO.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\DataLayerAccess\\OrderDetailDAO.cs",
               "RelativeToolTip": "DataLayerAccess\\OrderDetailDAO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -483,9 +479,9 @@
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "Repositories.csproj",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\Repositories\\Repositories.csproj",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\Repositories\\Repositories.csproj",
               "RelativeDocumentMoniker": "Repositories\\Repositories.csproj",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\Repositories\\Repositories.csproj",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\Repositories\\Repositories.csproj",
               "RelativeToolTip": "Repositories\\Repositories.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -495,9 +491,9 @@
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "DataLayerAccess.csproj",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\DataLayerAccess\\DataLayerAccess.csproj",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\DataLayerAccess\\DataLayerAccess.csproj",
               "RelativeDocumentMoniker": "DataLayerAccess\\DataLayerAccess.csproj",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\DataLayerAccess\\DataLayerAccess.csproj",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\DataLayerAccess\\DataLayerAccess.csproj",
               "RelativeToolTip": "DataLayerAccess\\DataLayerAccess.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -507,9 +503,9 @@
               "$type": "Document",
               "DocumentIndex": 31,
               "Title": "AdminAccount.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Common\\AdminAccount.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Common\\AdminAccount.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Common\\AdminAccount.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Common\\AdminAccount.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Common\\AdminAccount.cs",
               "RelativeToolTip": "BusinessObject\\Common\\AdminAccount.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAmwCMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -519,9 +515,9 @@
               "$type": "Document",
               "DocumentIndex": 30,
               "Title": "MyPhoneDbContext.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Common\\MyPhoneDbContext.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Common\\MyPhoneDbContext.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Common\\MyPhoneDbContext.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Common\\MyPhoneDbContext.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Common\\MyPhoneDbContext.cs",
               "RelativeToolTip": "BusinessObject\\Common\\MyPhoneDbContext.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -531,9 +527,9 @@
               "$type": "Document",
               "DocumentIndex": 32,
               "Title": "RoleConfiguration.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\RoleConfiguration.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\RoleConfiguration.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Configurations\\RoleConfiguration.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\RoleConfiguration.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\RoleConfiguration.cs",
               "RelativeToolTip": "BusinessObject\\Configurations\\RoleConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -543,9 +539,9 @@
               "$type": "Document",
               "DocumentIndex": 29,
               "Title": "ProductConfiguration.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\ProductConfiguration.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\ProductConfiguration.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Configurations\\ProductConfiguration.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\ProductConfiguration.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\ProductConfiguration.cs",
               "RelativeToolTip": "BusinessObject\\Configurations\\ProductConfiguration.cs",
               "ViewState": "AQIAAEkAAAAAAAAAAAAwwFgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -555,9 +551,9 @@
               "$type": "Document",
               "DocumentIndex": 34,
               "Title": "OrderConfiguration.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\OrderConfiguration.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\OrderConfiguration.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Configurations\\OrderConfiguration.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\OrderConfiguration.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\OrderConfiguration.cs",
               "RelativeToolTip": "BusinessObject\\Configurations\\OrderConfiguration.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAAEIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -567,9 +563,9 @@
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "Role.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Role.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Role.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Role.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Role.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Role.cs",
               "RelativeToolTip": "BusinessObject\\Role.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -579,9 +575,9 @@
               "$type": "Document",
               "DocumentIndex": 35,
               "Title": "OrderDetailConfiguration.cs",
-              "DocumentMoniker": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\OrderDetailConfiguration.cs",
+              "DocumentMoniker": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\OrderDetailConfiguration.cs",
               "RelativeDocumentMoniker": "BusinessObject\\Configurations\\OrderDetailConfiguration.cs",
-              "ToolTip": "D:\\FPT_UNI\\PRN211\\CSharp (C#)\\Assignment In Class\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\OrderDetailConfiguration.cs",
+              "ToolTip": "D:\\PRN212\\PRN_Project\\Project_PRN212_ProductManagement\\BusinessObject\\Configurations\\OrderDetailConfiguration.cs",
               "RelativeToolTip": "BusinessObject\\Configurations\\OrderDetailConfiguration.cs",
               "ViewState": "AQIAADIAAAAAAAAAAAAuwEcAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
