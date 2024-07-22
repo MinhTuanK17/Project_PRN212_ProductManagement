@@ -34,6 +34,9 @@
     <Compile Update="Customer\ManageProfile\ChangePassword.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Customer\ManageProfile\Disable Account.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Customer\ManageProfile\UpdateProfile.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -67,6 +70,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Customer\ManageProfile\ChangePassword.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Customer\ManageProfile\Disable Account.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Customer\ManageProfile\UpdateProfile.xaml">

@@ -10,15 +10,17 @@ namespace Repositories.OrderDetailR
 {
     public class OrderDetailRepository : IOrderDetailRepository
     {
+        public async Task<OrderDetail> AddOrder(int quantity) => await OrderDetailDAO.Instance.AddOrder(quantity);
+
         public async Task AddOrderDetail(OrderDetail orderDetail) => await OrderDetailDAO.Instance.AddOrderDetail(orderDetail);
 
         public async Task DeleteOrderDetail(OrderDetail orderDetail) => await OrderDetailDAO.Instance.DeleteOrderDetail(orderDetail);
 
         public async Task<List<OrderDetail>> GetAllOrderDetail() => await OrderDetailDAO.Instance.GetAllOrderDetail();
 
-        public async Task<OrderDetail> GetOrderDetailById(string orderId, string productPhoneId) => await OrderDetailDAO.Instance.GetOrderDetailById(orderId, productPhoneId);
+        public async Task<OrderDetail> GetOrderDetailById(int orderId, string productPhoneId) => await OrderDetailDAO.Instance.GetOrderDetailById(orderId, productPhoneId);
 
-        public async Task<IEnumerable<OrderDetail>> GetOrderDetailByOrderId(string orderId) => await OrderDetailDAO.Instance.GetOrderDetailByOrderId(orderId);
+        public async Task<IEnumerable<OrderDetail>> GetOrderDetailByOrderId(int orderId) => await OrderDetailDAO.Instance.GetOrderDetailByOrderId(orderId);
 
         public async Task<List<OrderDetail>> GetOrderHistory(int customerId) => await OrderDetailDAO.Instance.GetOrderHistory(customerId);
         public async Task UpdateOrderDetail(OrderDetail orderDetail) => await OrderDetailDAO.Instance.UpdateOrderDetail(orderDetail);

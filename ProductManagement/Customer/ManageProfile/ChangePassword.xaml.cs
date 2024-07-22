@@ -1,12 +1,15 @@
-﻿using MaterialDesignThemes.Wpf;
+﻿using BusinessObject;
+using MaterialDesignThemes.Wpf;
+using Repositories.AccountR;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Controls.Primitives;
 
 namespace ProductManagement.Customer.ManageProfile
 {
     public partial class ChangePassword : Window
     {
+        private readonly IAccountRepository accountRepository;
+        public Account LoggedInUser { get; set; }
+
         private bool _isOldPasswordVisible = false;
         private bool _isNewPasswordVisible = false;
         private bool _isConfirmPasswordVisible = false;
@@ -14,6 +17,8 @@ namespace ProductManagement.Customer.ManageProfile
         public ChangePassword()
         {
             InitializeComponent();
+            accountRepository = new AccountRepository();
+            DataContext = this;
         }
 
         private void TogglePasswordVisibility(object sender, RoutedEventArgs e)
@@ -54,9 +59,29 @@ namespace ProductManagement.Customer.ManageProfile
             }
         }
 
-        private void Save_Click(object sender, RoutedEventArgs e)
+        private async void Save_Click(object sender, RoutedEventArgs e)
         {
-            // Implement save logic here
+            string oldPass = txtOldPasswordText.Text;
+            string newPass = txtNewPasswordText.Text;
+            string confirmPassword = txtConfirmPasswordText.Text;
+
+            if (oldPass == LoggedInUser.Password)
+            {
+                if (newPass == confirmPassword)
+                {
+                    await accountRepository.ChangePass(LoggedInUser.AccountId, newPass);
+                    MessageBox.Show("Change Password successfully!");
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("New password and confirmation password do not match");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Current Password is incorrect");
+            }
         }
 
         private void Cancel_Click(object sender, RoutedEventArgs e)

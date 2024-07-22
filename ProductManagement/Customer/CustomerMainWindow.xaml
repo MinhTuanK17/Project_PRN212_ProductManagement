@@ -11,8 +11,8 @@
      WindowState="Maximized">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="200*"/>
-            <RowDefinition Height="17*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
 
         <materialDesign:Card Grid.RowSpan="2">
@@ -20,7 +20,7 @@
                         SnapsToDevicePixels="True"
                         TabStripPlacement="Left">
 
-                <TabItem VerticalAlignment="Center" Height="70" Width="120">
+                <TabItem VerticalAlignment="Center" Height="111" Width="120">
                     <TabItem.Background>
                         <LinearGradientBrush EndPoint="0,1">
                             <GradientStop Color="#FFFFEFDD" Offset="0.017"/>
@@ -59,7 +59,7 @@
                         <Image Grid.Row="1" Source="https://danang.plus/wp-content/uploads/2022/12/hoc-phi-fpt-da-nang-3.jpg" HorizontalAlignment="Left" Margin="62,51,0,1347" Width="1249"/>
                     </Grid>
                 </TabItem>
-                <TabItem VerticalAlignment="Center" Height="80">
+                <TabItem VerticalAlignment="Center" Height="111">
                     <TabItem.Background>
                         <LinearGradientBrush EndPoint="0,1">
                             <GradientStop Color="#FFFFEFDD" Offset="0.017"/>
@@ -129,7 +129,7 @@
                         </materialDesign:Card>
                     </StackPanel>
                 </TabItem>
-                <TabItem VerticalAlignment="Center" Height="80">
+                <TabItem VerticalAlignment="Center" Height="111">
                     <TabItem.Background>
                         <LinearGradientBrush EndPoint="0,1">
                             <GradientStop Color="#FFFFEFDD" Offset="0.017"/>
@@ -265,7 +265,7 @@
                         </materialDesign:Card>
                     </StackPanel>
                 </TabItem>
-                <TabItem VerticalAlignment="Center" Height="80">
+                <TabItem VerticalAlignment="Center" Height="111">
                     <TabItem.Background>
                         <LinearGradientBrush EndPoint="0,1">
                             <GradientStop Color="#FFFFEFDD" Offset="0.017"/>
@@ -278,9 +278,9 @@
                             <TextBlock HorizontalAlignment="Center" Text="Order" />
                         </StackPanel>
                     </TabItem.Header>
-                    <StackPanel Margin="16">
-                        <materialDesign:Card Width="700" Padding="8" UniformCornerRadius="6">
-                            <Grid>
+                    <StackPanel Margin="16" Width="1309">
+                        <materialDesign:Card Width="1300" Padding="8" UniformCornerRadius="6">
+                            <Grid Height="333">
                                 <Grid.RowDefinitions>
                                     <RowDefinition></RowDefinition>
                                     <RowDefinition></RowDefinition>
@@ -298,85 +298,85 @@
 
                                 <ComboBox Grid.Row="0"
                                           Grid.Column="0"
-                                          Margin="10"
-                                          MinWidth="72"
-                                          materialDesign:HintAssist.Hint="Room Number"
-                                          materialDesign:HintAssist.HelperText="Room available"
-                                          Name="cbRoom"
-                                          SelectedValue="{Binding SelectedValueOne}"
-                                          DisplayMemberPath="{Binding RoomNumber}">
-                                    <ComboBox.SelectedItem>
-                                        <Binding Mode="TwoWay"
-                                                 Path="SelectedValueOne"
-                                                 UpdateSourceTrigger="PropertyChanged">
-
-                                        </Binding>
-                                    </ComboBox.SelectedItem>
+                                          Margin="10,0,10,0"
+                                          MinWidth="72" SelectionChanged="cbCategory_SelectionChanged"
+                                          Name="cbCategory"
+                                           DisplayMemberPath="CategoryName"
+                                            SelectedValuePath="CategoryId"
+                                          VerticalAlignment="Center" Height="57">
                                 </ComboBox>
-
-                                <DatePicker Grid.Column="0"
-                                            Margin="10"
-                                            Grid.Row="1"
-                                            Name="txtStartDate"
-                                            SelectedDate="{Binding StartTime, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                                            materialDesign:HintAssist.Hint="Start Date"
-                                            materialDesign:TextFieldAssist.HasClearButton="True"
-                                            materialDesign:HintAssist.HelperText="Start date" />
-
-                                <DatePicker Grid.Column="1"
-                                            Name="txtEndDate"
-                                            Margin="10"
-                                            Grid.Row="1"
-                                            SelectedDate="{Binding EndTime, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                                            materialDesign:HintAssist.Hint="End Date"
-                                            materialDesign:HintAssist.HelperText="End date"
-                                            materialDesign:TextFieldAssist.HasClearButton="True" />
-                                <TextBox 
-                                    Grid.Row="2"
-                                    IsReadOnly="True"
-                                    Margin="10"
-                                         materialDesign:HintAssist.HelperText="Price per date"
-                                         materialDesign:HintAssist.Hint="Price per date"
-                                    Text="{Binding RoomPricePerDate}"
-                                       >
-
-                                </TextBox>
-                                <TextBox Grid.Row="2" Grid.Column="1"
-                                         IsReadOnly="True"
-                                         Name="txtActualPrice"
-                                         Margin="10"
-                                         materialDesign:HintAssist.HelperText="Price actual"
-                                         materialDesign:HintAssist.Hint="Price actual"
-                                         Text="{Binding ActualPrice}">
-
-                                </TextBox>
-                                <TextBox Grid.Row="3"
-                                         Grid.Column="0"
-                                         IsReadOnly="True"
-                                         Name="txtTotalPrice"
-                                         Margin="10"
-                                         materialDesign:HintAssist.HelperText="Total price include 8% tax"
-                                         materialDesign:HintAssist.Hint="Total price"
-                                         Text="{Binding TotalPrice}">
-
-                                </TextBox>
-                                <Button 
+                                <ComboBox Grid.Row="0"
+                                      Grid.Column="1"
+                                      Margin="10,0,10,0"
+                                      MinWidth="72"
+                                      Name="cbProduct" SelectionChanged="cbProduct_SelectionChanged"
+                                      SelectedValuePath="ProductPhoneId"
+                                      DisplayMemberPath="ProductPhoneName" VerticalAlignment="Center" Height="57">
+                                </ComboBox>
+                                <TextBox Grid.Column="0"
+                                            Margin="10,0,10,0"
+                                            Grid.Row="1" IsEnabled="False"
+                                            Name="txtRamPhone" VerticalAlignment="Center" Height="58"
+                                ></TextBox>
+                                <TextBox Grid.Column="1"
+                                            Margin="10,0,10,0"
+                                            Grid.Row="1" IsEnabled="False"
+                                            Name="txtMemoryPhone" VerticalAlignment="Center" Height="58"
+                                ></TextBox>
+                                <TextBox Grid.Column="0"
+                                         Margin="10,0,10,0"
+                                         Grid.Row="2" IsEnabled="False"
+                                         Name="txtQuantity" VerticalAlignment="Center" Height="57"
+                             ></TextBox>
+                                <TextBox Grid.Column="1"
+                                            Margin="10,0,10,0"
+                                            Grid.Row="2" IsEnabled="False"
+                                            Name="txtPrice" VerticalAlignment="Center" Height="57"
+                                ></TextBox>
+                                <TextBox Grid.Column="0"
+                                        Margin="10,0,10,0"
+                                        Grid.Row="3" IsEnabled="False"
+                                        Name="txtDescription" Grid.ColumnSpan="2" VerticalAlignment="Center" Height="57"
+                            ></TextBox>
+                                <Button BorderBrush="Black"
                                     HorizontalAlignment="Left"
                                     Grid.Row="4"
                                         Grid.Column="0"
-                                        Margin="20"
-                                        Width="80"
-                                        Content="Book"
-                                        IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
-                                        ToolTip="Book room today to have discount 0%"
+                                        Margin="10,20,0,0"
+                                        Width="155"
+                                        Content="Add order"
+                                        FontSize="18" Background="#FFFFD26E" 
+                                        FontWeight="Bold" Click="Button_AddOrder_Click"
                                         />
-
+                                <TextBlock Text="Quantity: " Grid.Row="4"
+                                    Grid.Column="1" VerticalAlignment="Center" FontSize="20"/>
+                                <TextBox Name="txtQuantityOrder" Grid.Row="4" VerticalContentAlignment="Center"
+    Grid.Column="1" VerticalAlignment="Center" FontSize="20" Margin="98,0,0,0" Height="61"/>
                             </Grid>
+
                         </materialDesign:Card>
+                        <Grid Grid.Row="3" >
+                            <DataGrid MinRowHeight="30" HorizontalAlignment="Center" Name="dtgAddOrders" AutoGenerateColumns="False" SelectionChanged="dtgProductDataGrid_SelectionChanged" Width="1289" Margin="0,0,0,-305">
+
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="PhoneName" Binding="{Binding Product.ProductPhoneName}" Width="*" />
+                                    <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" Width="*"/>
+                                    <DataGridTextColumn Header="TotalPrice" Binding="{Binding TotalPrice}" Width="*"/>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                            <TextBlock Text="Amount Price: " Margin="808,366,0,-366" HorizontalAlignment="Left" FontStyle="Italic" FontSize="18" TextDecorations="Underline"/>
+                            <TextBlock Name="txtAmountPrice" Margin="927,368,0,0" HorizontalAlignment="Left" FontStyle="Italic" FontSize="21" Width="212" VerticalAlignment="Top" Foreground="Red"/>
+                            <Button BorderBrush="Black"
+                                Width="155"
+                                Content="ORDER NOW"
+                                FontSize="18" Background="#FFFFD26E" 
+                                FontWeight="Bold" Click="Button_ORDER_Click" Margin="1144,346,10,0"
+                                />
+                        </Grid>
+
                     </StackPanel>
                 </TabItem>
-
-                <TabItem VerticalAlignment="Center" Height="80">
+                <TabItem VerticalAlignment="Center" Height="111">
                     <TabItem.Background>
                         <LinearGradientBrush EndPoint="0,1">
                             <GradientStop Color="#FFFFEFDD" Offset="0.017"/>
@@ -486,7 +486,7 @@
                         </materialDesign:Card>
                     </StackPanel>
                 </TabItem>
-                <TabItem VerticalAlignment="Center" Height="80">
+                <TabItem VerticalAlignment="Center" Height="111">
                     <TabItem.Background>
                         <LinearGradientBrush EndPoint="0,1">
                             <GradientStop Color="#FFFFEFDD" Offset="0.017"/>
@@ -526,6 +526,20 @@
                             </StackPanel>
                         </materialDesign:Card>
                     </StackPanel>
+                </TabItem>
+                <TabItem VerticalAlignment="Center" Height="113" PreviewMouseDown="TabItem_PreviewMouseDown">
+                    <TabItem.Background>
+                        <LinearGradientBrush EndPoint="0,1">
+                            <GradientStop Color="#FFFFEFDD" Offset="0.017"/>
+                            <GradientStop Color="#FFFFEFDD" Offset="1"/>
+                        </LinearGradientBrush>
+                    </TabItem.Background>
+                    <TabItem.Header>
+                        <StackPanel Width="48" Height="auto" VerticalAlignment="Center">
+                            <materialDesign:PackIcon Width="24" Height="24" HorizontalAlignment="Center" Kind="Login" Foreground="#FFFF6500" />
+                            <TextBlock HorizontalAlignment="Center" Text="Logout" />
+                        </StackPanel>
+                    </TabItem.Header>
                 </TabItem>
             </TabControl>
         </materialDesign:Card>

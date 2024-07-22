@@ -1,0 +1,105 @@
+﻿<Window x:Class="ProductManagement.Customer.ManageProfile.Disable_Account"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProductManagement.Customer.ManageProfile"
+                mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Height="370" Width="600" WindowStyle="None"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <!-- Style for the eye icon -->
+        <Style x:Key="EyeIconStyle" TargetType="materialDesign:PackIcon">
+            <Setter Property="Kind" Value="EyeOutline"/>
+            <Setter Property="Foreground" Value="#FF4CAF50"/>
+            <Setter Property="Width" Value="24"/>
+            <Setter Property="Height" Value="24"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="Margin" Value="0,0,10,0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="20,20,20,7">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="59.903"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <TextBlock Text="Disable Account" 
+                   FontSize="30" 
+                   FontWeight="Bold" 
+                   HorizontalAlignment="Center" 
+                   Margin="0,10,0,10" Width="240" Foreground="#FFFF6500" />
+
+        <!-- Content -->
+        <materialDesign:Card Grid.Row="1" Padding="16" UniformCornerRadius="8" Margin="0,0,0,-70">
+            <StackPanel Margin="0,0,0,85">
+                <!-- Old Password -->
+                <TextBlock Text="Email"
+                            Margin="0,0,0,10" 
+                            FontSize="14" 
+                            Foreground="#666" 
+                            HorizontalAlignment="Left"/>
+                <Grid Margin="0,0,0,10">
+                    <TextBox Name="txtEmail"
+                                 BorderBrush="Black"
+                                 Height="40" 
+                                 Margin="0,0,40,0"
+                                 HorizontalAlignment="Stretch"
+                                 Visibility="Visible"/>
+                </Grid>
+
+                <!-- New Password -->
+                <TextBlock Text="Password" 
+                            Margin="0,0,0,10" 
+                            FontSize="14" 
+                            Foreground="#666" 
+                            HorizontalAlignment="Left"/>
+                <Grid Margin="0,0,0,10" Width="529">
+                    <PasswordBox x:Name="txtNewPassword" 
+                                 BorderBrush="Black"
+                                 Height="40" 
+                                 Margin="0,0,40,0"
+                                 PasswordChar="●"
+                                 HorizontalAlignment="Stretch"
+                                 Visibility="Visible"/>
+                    <TextBox x:Name="txtNewPasswordText" 
+                             BorderBrush="Black"
+                             Height="40" 
+                             Margin="0,0,40,0"
+                             HorizontalAlignment="Stretch"
+                             Visibility="Collapsed"/>
+                    <materialDesign:PackIcon x:Name="iconNewPassword"
+                                             Style="{StaticResource EyeIconStyle}"
+                                             MouseLeftButtonUp="TogglePasswordVisibility"
+                                             Width="29" Foreground="#FFFF6F00" Margin="447,0,0,0" Height="28" HorizontalAlignment="Left"/>
+                </Grid>
+            </StackPanel>
+        </materialDesign:Card>
+
+        <!-- Buttons -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Width="240" Margin="0,168,0,0" >
+            <Button Content="Save" 
+                    Width="120" 
+                    Height="40" 
+                    FontSize="16" 
+                    Background="#FF4CAF50" 
+                    Foreground="White" 
+                    Click="Save_Click"
+                    FontWeight="Bold"/>
+            <Button Content="Cancel" 
+                    Width="120" 
+                    Height="40" 
+                    FontSize="16" 
+                    Background="#FFB71C1C" 
+                    Foreground="White" 
+                    Click="Cancel_Click"
+                    FontWeight="Bold"/>
+        </StackPanel>
+    </Grid>
+</Window>

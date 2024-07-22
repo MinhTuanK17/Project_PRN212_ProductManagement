@@ -18,52 +18,45 @@ namespace BusinessObject.Configurations
             builder.HasData(
                 new Order
                 {
-                    OrderId = "O0001",
+                    OrderId = 1,
                     OrderDate = DateTime.Now,
                     OrderStatus = "Confirmed",
                     AccountId = 4
                 },
                 new Order
                 {
-                    OrderId = "O0002",
+                    OrderId = 2,
                     OrderDate = DateTime.Now,
                     OrderStatus = "Pending",
                     AccountId = 10
                 },
                 new Order
                 {
-                    OrderId = "O0003",
+                    OrderId = 3,
                     OrderDate = DateTime.Now,
                     OrderStatus = "Cancelled",
                     AccountId = 4
                 },
                 new Order
                 {
-                    OrderId = "O0004",
+                    OrderId = 4,
                     OrderDate = DateTime.Now,
                     OrderStatus = "Confirmed",
                     AccountId = 9
                 },
                 new Order
                 {
-                    OrderId = "O0005",
+                    OrderId = 5,
                     OrderDate = new DateTime(2024, 7, 14),
                     OrderStatus = "Pending",
                     AccountId = 8
                 },
                 new Order
                 {
-                    OrderId = "O0006",
+                    OrderId = 6,
                     OrderDate = new DateTime(2024, 7, 15),
                     OrderStatus = "Confirmed",
                     AccountId = 4
-                },
-                new Order
-                {
-                    OrderId = "O0007",
-                    OrderDate = DateTime.Now,
-                    OrderStatus = "Pending",
-                    AccountId = 5
                 }
             );
         }

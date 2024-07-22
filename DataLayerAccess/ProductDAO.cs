@@ -56,6 +56,29 @@ namespace DataLayerAccess
             }
         }
 
+        public async Task ChangeQuantity(string productId, int newQuantity)
+        {
+            try
+            {
+                var findProduct = await GetProductById(productId);
+                if (findProduct != null)
+                {
+                    
+                    findProduct.PhoneQuantity = findProduct.PhoneQuantity - newQuantity;
+                }
+                else
+                {
+                    throw new Exception($"Product with ID {productId} not found.");
+                }
+
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
         public async Task DeleteProduct(Product product)
         {
             try
@@ -94,6 +117,25 @@ namespace DataLayerAccess
                 throw new Exception(e.Message);
             }
         }
+        public async Task<List<Product>> GetProductByCategoryId(int? categoryId)
+        {
+            try
+            {
+                _context = new();
+                var query = _context.Products.AsNoTracking()
+                                    .Include(x => x.Category)
+                                    .Where(p => p.CategoryId == categoryId);
 
+                if (categoryId.HasValue)
+                {
+                    query = query.AsNoTracking().Where(p => p.CategoryId == categoryId.Value);
+                }
+                return await query.ToListAsync();
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
     }
 }

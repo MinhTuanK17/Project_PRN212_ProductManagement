@@ -9,7 +9,7 @@ namespace DataLayerAccess
     {
         private MyPhoneDbContext? _context;
 
-        public async Task<OrderDetail> GetOrderDetailById(string orderId, string productPhoneId)
+        public async Task<OrderDetail> GetOrderDetailById(int orderId, string productPhoneId)
         {
             try
             {
@@ -23,12 +23,25 @@ namespace DataLayerAccess
             }
         }
 
-        public async Task<IEnumerable<OrderDetail>> GetOrderDetailByOrderId(string orderId)
+        public async Task<IEnumerable<OrderDetail>> GetOrderDetailByOrderId(int orderId)
         {
             try
             {
                 _context = new();
                 var orderDetail = await _context.OrderDetails.Where(b => b.OrderId.Equals(orderId)).ToListAsync();
+                return orderDetail!;
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+        public async Task<IEnumerable<OrderDetail>> GetOrderDetailByProductId(string productId)
+        {
+            try
+            {
+                _context = new();
+                var orderDetail = await _context.OrderDetails.Where(b => b.ProductPhoneId.Equals(productId)).ToListAsync();
                 return orderDetail!;
             }
             catch (Exception e)
@@ -96,6 +109,23 @@ namespace DataLayerAccess
                 .Where(od => od.Order.AccountId == customerId).ToListAsync();
 
         }
+        public async Task<OrderDetail> AddOrder(int quantity)
+        {
+            try
+            {
+                _context = new();
+                var orderDetail = await _context.OrderDetails.Where(o => o.Quantity == quantity).FirstOrDefaultAsync();
+                _context.OrderDetails.Update(orderDetail);
+                _context.SaveChangesAsync();
+                return orderDetail!;
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
+
 
     }
 }

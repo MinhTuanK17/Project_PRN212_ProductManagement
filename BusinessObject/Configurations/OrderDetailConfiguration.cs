@@ -16,59 +16,52 @@ namespace BusinessObject.Configurations
             builder.HasData(
                 new OrderDetail
                 {
-                    OrderId = "O0001",
+                    OrderId = 1,
                     ProductPhoneId = "P1001",
                     Quantity = 2,
                     TotalPrice = 69998m
                 },
                 new OrderDetail
                 {
-                    OrderId = "O0001",
+                    OrderId = 1,
                     ProductPhoneId = "P2002",
                     Quantity = 1,
                     TotalPrice = 20459m
                 },
                 new OrderDetail
                 {
-                    OrderId = "O0002",
+                    OrderId = 2,
                     ProductPhoneId = "P3001",
                     Quantity = 3,
                     TotalPrice = 44997m
                 },
                 new OrderDetail
                 {
-                    OrderId = "O0003",
+                    OrderId = 3,
                     ProductPhoneId = "P4003",
                     Quantity = 1,
                     TotalPrice = 41990m
                 },
                 new OrderDetail
                 {
-                    OrderId = "O0004",
+                    OrderId = 4,
                     ProductPhoneId = "P5003",
                     Quantity = 4,
                     TotalPrice = 79996m
                 },
                 new OrderDetail
                 {
-                    OrderId = "O0005",
+                    OrderId = 5,
                     ProductPhoneId = "P1003",
                     Quantity = 3,
                     TotalPrice = 51000m
                 },
                 new OrderDetail
                 {
-                    OrderId = "O0006",
+                    OrderId = 6,
                     ProductPhoneId = "P2001",
                     Quantity = 2,
                     TotalPrice = 59998m
-                },
-                new OrderDetail
-                {
-                    OrderId = "O0007",
-                    ProductPhoneId = "P3002",
-                    Quantity = 1,
-                    TotalPrice = 5999m
                 }
             );
         }

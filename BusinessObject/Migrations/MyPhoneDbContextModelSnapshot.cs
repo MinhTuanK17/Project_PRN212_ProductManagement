@@ -259,9 +259,12 @@ namespace BusinessObject.Migrations
 
             modelBuilder.Entity("BusinessObject.Order", b =>
                 {
-                    b.Property<string>("OrderId")
+                    b.Property<int>("OrderId")
+                        .ValueGeneratedOnAdd()
                         .HasMaxLength(7)
-                        .HasColumnType("nvarchar(7)");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderId"));
 
                     b.Property<int?>("AccountId")
                         .HasColumnType("int");
@@ -285,59 +288,52 @@ namespace BusinessObject.Migrations
                     b.HasData(
                         new
                         {
-                            OrderId = "O0001",
+                            OrderId = 1,
                             AccountId = 4,
-                            OrderDate = new DateTime(2024, 7, 18, 4, 10, 8, 50, DateTimeKind.Local).AddTicks(197),
+                            OrderDate = new DateTime(2024, 7, 22, 15, 19, 13, 575, DateTimeKind.Local).AddTicks(9515),
                             OrderStatus = "Confirmed"
                         },
                         new
                         {
-                            OrderId = "O0002",
+                            OrderId = 2,
                             AccountId = 10,
-                            OrderDate = new DateTime(2024, 7, 18, 4, 10, 8, 50, DateTimeKind.Local).AddTicks(218),
+                            OrderDate = new DateTime(2024, 7, 22, 15, 19, 13, 575, DateTimeKind.Local).AddTicks(9534),
                             OrderStatus = "Pending"
                         },
                         new
                         {
-                            OrderId = "O0003",
+                            OrderId = 3,
                             AccountId = 4,
-                            OrderDate = new DateTime(2024, 7, 18, 4, 10, 8, 50, DateTimeKind.Local).AddTicks(220),
+                            OrderDate = new DateTime(2024, 7, 22, 15, 19, 13, 575, DateTimeKind.Local).AddTicks(9535),
                             OrderStatus = "Cancelled"
                         },
                         new
                         {
-                            OrderId = "O0004",
+                            OrderId = 4,
                             AccountId = 9,
-                            OrderDate = new DateTime(2024, 7, 18, 4, 10, 8, 50, DateTimeKind.Local).AddTicks(222),
+                            OrderDate = new DateTime(2024, 7, 22, 15, 19, 13, 575, DateTimeKind.Local).AddTicks(9536),
                             OrderStatus = "Confirmed"
                         },
                         new
                         {
-                            OrderId = "O0005",
+                            OrderId = 5,
                             AccountId = 8,
                             OrderDate = new DateTime(2024, 7, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             OrderStatus = "Pending"
                         },
                         new
                         {
-                            OrderId = "O0006",
+                            OrderId = 6,
                             AccountId = 4,
                             OrderDate = new DateTime(2024, 7, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             OrderStatus = "Confirmed"
-                        },
-                        new
-                        {
-                            OrderId = "O0007",
-                            AccountId = 5,
-                            OrderDate = new DateTime(2024, 7, 18, 4, 10, 8, 50, DateTimeKind.Local).AddTicks(226),
-                            OrderStatus = "Pending"
                         });
                 });
 
             modelBuilder.Entity("BusinessObject.OrderDetail", b =>
                 {
-                    b.Property<string>("OrderId")
-                        .HasColumnType("nvarchar(7)");
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
 
                     b.Property<string>("ProductPhoneId")
                         .HasColumnType("nvarchar(7)");
@@ -357,59 +353,52 @@ namespace BusinessObject.Migrations
                     b.HasData(
                         new
                         {
-                            OrderId = "O0001",
+                            OrderId = 1,
                             ProductPhoneId = "P1001",
                             Quantity = 2,
                             TotalPrice = 69998m
                         },
                         new
                         {
-                            OrderId = "O0001",
+                            OrderId = 1,
                             ProductPhoneId = "P2002",
                             Quantity = 1,
                             TotalPrice = 20459m
                         },
                         new
                         {
-                            OrderId = "O0002",
+                            OrderId = 2,
                             ProductPhoneId = "P3001",
                             Quantity = 3,
                             TotalPrice = 44997m
                         },
                         new
                         {
-                            OrderId = "O0003",
+                            OrderId = 3,
                             ProductPhoneId = "P4003",
                             Quantity = 1,
                             TotalPrice = 41990m
                         },
                         new
                         {
-                            OrderId = "O0004",
+                            OrderId = 4,
                             ProductPhoneId = "P5003",
                             Quantity = 4,
                             TotalPrice = 79996m
                         },
                         new
                         {
-                            OrderId = "O0005",
+                            OrderId = 5,
                             ProductPhoneId = "P1003",
                             Quantity = 3,
                             TotalPrice = 51000m
                         },
                         new
                         {
-                            OrderId = "O0006",
+                            OrderId = 6,
                             ProductPhoneId = "P2001",
                             Quantity = 2,
                             TotalPrice = 59998m
-                        },
-                        new
-                        {
-                            OrderId = "O0007",
-                            ProductPhoneId = "P3002",
-                            Quantity = 1,
-                            TotalPrice = 5999m
                         });
                 });
 
@@ -458,7 +447,7 @@ namespace BusinessObject.Migrations
                             CategoryId = 1,
                             MemoryPhone = "256 GB",
                             PhoneDescription = "The Iphone 14 Pro Max is the latest flagship model from Apple, featuring advanced camera systems, a stunning Super Retina XDR display, and the powerful A16 Bionic chip.",
-                            PhonePrice = 34575000m,
+                            PhonePrice = 34575m,
                             PhoneQuantity = 25,
                             ProductPhoneName = "Iphone 14 Pro Max",
                             RamPhone = "16 GB"
@@ -838,6 +827,11 @@ namespace BusinessObject.Migrations
                         {
                             RoleId = 3,
                             RoleName = "Administrator"
+                        },
+                        new
+                        {
+                            RoleId = 4,
+                            RoleName = "Locked Account"
                         });
                 });
 

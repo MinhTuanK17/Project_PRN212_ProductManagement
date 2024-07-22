@@ -20,5 +20,6 @@ namespace Repositories.AccountR
         Task UpdateAccountCustomer(Account account);
         Task DisableAccountCustomer(Account account);
         Task EnableAccountCustomer(Account account);
+        Task<Account> ChangePass(int accountId, string newPass);
     }
 }
