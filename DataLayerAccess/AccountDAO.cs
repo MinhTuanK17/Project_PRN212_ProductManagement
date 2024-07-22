@@ -151,5 +151,23 @@ namespace DataLayerAccess
                 throw new Exception("Error blocked account customer: " + e.Message);
             }
         }
+
+        public async Task<Account> ChangePass(int accountId,string newPass)
+        {
+            try
+            {
+                _context = new();
+                var account = await _context.Accounts.FirstOrDefaultAsync(a => a.AccountId == accountId);
+                account.Password = newPass;
+                _context.Accounts.Update(account);
+                await _context.SaveChangesAsync();
+
+                return account;
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Cannot change password: " + e.Message);
+            }
+        }
     }
 }

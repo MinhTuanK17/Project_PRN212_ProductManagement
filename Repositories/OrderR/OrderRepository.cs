@@ -16,7 +16,9 @@ namespace Repositories.OrderR
 
         public async Task<List<Order>> GetAllOrder() => await OrderDAO.Instance.GetAllOrder();
 
-        public async Task<Order> GetOrderById(string orderId) => await OrderDAO.Instance.GetOrderById(orderId);
+        public async Task<int> GetMaxOrderId() => await OrderDAO.Instance.GetMaxOrderId();
+
+        public async Task<Order> GetOrderById(int orderId) => await OrderDAO.Instance.GetOrderById(orderId);
 
         public async Task UpdateOrder(Order order) => await OrderDAO.Instance.UpdateOrder(order);
     }

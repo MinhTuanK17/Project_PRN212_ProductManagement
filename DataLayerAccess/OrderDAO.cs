@@ -2,6 +2,7 @@
 using BusinessObject.Common;
 using DataAccessLayer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
 
 namespace DataLayerAccess
 {
@@ -9,7 +10,7 @@ namespace DataLayerAccess
     {
         private MyPhoneDbContext? _context;
 
-        public async Task<Order> GetOrderById(string orderId)
+        public async Task<Order> GetOrderById(int orderId)
         {
             try
             {
@@ -28,12 +29,29 @@ namespace DataLayerAccess
             return await _context.Orders.AsNoTracking().Include(o => o.Account).ToListAsync();
         }
 
+        public async Task<int> GetMaxOrderId()
+        {
+            // Sử dụng LINQ để lấy OrderId lớn nhất từ database
+            int maxOrderId = await _context.Orders
+                                    .AsNoTracking()
+                                    .Select(o => o.OrderId)
+                                    .DefaultIfEmpty() // Handle empty list gracefully
+                                    .MaxAsync();
+
+            return maxOrderId;
+        }
+
+
         public async Task AddNewOrder(Order order)
         {
             _context = new();
+            order.OrderDate = DateTime.Now;
+            order.OrderStatus = "Pending";
             _context.Orders.Add(order);
             await _context.SaveChangesAsync();
         }
+
+
 
         public async Task UpdateOrder(Order order)
         {

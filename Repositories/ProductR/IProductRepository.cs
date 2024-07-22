@@ -1,4 +1,5 @@
 ﻿using BusinessObject;
+using DataLayerAccess;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,8 @@ namespace Repositories.ProductR
         Task UpdateProduct(Product product);
         Task DeleteProduct(Product product);
         Task<List<Product>> SearchProductByName(string name, int? categoryId);
+        Task<List<Product>> GetProductByCategoryId(int? categoryId);
+        Task ChangeQuantity(string productId, int newQuantity);
 
     }
 }

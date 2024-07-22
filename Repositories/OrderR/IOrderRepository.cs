@@ -9,11 +9,13 @@ namespace Repositories.OrderR
 {
     public interface IOrderRepository
     {
-        Task<Order> GetOrderById(string orderId);
+        Task<Order> GetOrderById(int orderId);
         Task<List<Order>> GetAllOrder();
         Task AddNewOrder(Order order);
         Task UpdateOrder(Order order);
         Task DeleteOrder(Order order);
+
+        Task<int> GetMaxOrderId();
 
     }
 }

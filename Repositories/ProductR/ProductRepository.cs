@@ -13,6 +13,8 @@ namespace Repositories.ProductR
         public async Task DeleteProduct(Product product) => await ProductDAO.Instance.DeleteProduct(product);   
         public async Task<List<Product>> GetAllProduct() => await ProductDAO.Instance.GetAllProduct();
 
+        public async Task<List<Product>> GetProductByCategoryId(int? categoryId) => await ProductDAO.Instance.GetProductByCategoryId(categoryId);
+
         public async Task<Product> GetProductById(string productId) => await ProductDAO.Instance.GetProductById(productId);
 
         public async Task InsertProduct(Product product) => await ProductDAO.Instance.InsertProduct(product);
@@ -20,5 +22,7 @@ namespace Repositories.ProductR
         public async Task<List<Product>> SearchProductByName(string name, int? categoryId) => await ProductDAO.Instance.SearchProductByName(name, categoryId);
 
         public async Task UpdateProduct(Product product) => await ProductDAO.Instance.UpdateProduct(product);
+
+        public async Task ChangeQuantity(string productId, int newQuantity) => await ProductDAO.Instance.ChangeQuantity(productId, newQuantity);
     }
 }
