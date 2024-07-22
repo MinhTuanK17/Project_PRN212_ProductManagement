@@ -119,7 +119,7 @@ namespace ProductManagement.Admin_Staff {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ProductManagement;component/admin&staff/adminmainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ProductManagement;V1.0.0.0;component/admin&staff/adminmainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Admin&Staff\AdminMainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

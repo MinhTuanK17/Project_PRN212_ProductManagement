@@ -108,7 +108,8 @@ namespace ProductManagement.Admin_Staff.ManageCustomer {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ProductManagement;component/admin&staff/managecustomer/addnewcustomer.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ProductManagement;V1.0.0.0;component/admin&staff/managecustomer/addnewcustomer.x" +
+                    "aml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Admin&Staff\ManageCustomer\AddNewCustomer.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -15,5 +15,6 @@ namespace Repositories.OrderDetailR
         Task AddOrderDetail(OrderDetail orderDetail);
         Task UpdateOrderDetail(OrderDetail orderDetail);
         Task DeleteOrderDetail(OrderDetail orderDetail);
+        Task<List<OrderDetail>> GetOrderHistory(int customerId);
     }
 }

@@ -89,6 +89,13 @@ namespace DataLayerAccess
                 throw new Exception(e.Message);
             }
         }
+        public async Task<List<OrderDetail>> GetOrderHistory(int customerId)
+        {
+            _context = new();
+            return await _context.OrderDetails.AsNoTracking().Include(o => o.Order).Include(o => o.Product)
+                .Where(od => od.Order.AccountId == customerId).ToListAsync();
+
+        }
 
     }
 }

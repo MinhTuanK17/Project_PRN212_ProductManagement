@@ -43,7 +43,7 @@ namespace ProductManagement.Customer.ManageProfile
                 txtEmail.Text = LoggedInUser.Email;
                 txtGender.IsChecked = LoggedInUser.Gender;
                 txtPhone.Text = LoggedInUser.PhoneNumber;
-                txtDob.SelectedDate = LoggedInUser.DayOfBirth;
+                txtDob.Text = LoggedInUser.DayOfBirth.Value.ToString("dd/MM/yyyy");
                 txtAddress.Text = LoggedInUser.Address;
             }
         }

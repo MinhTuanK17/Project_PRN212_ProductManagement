@@ -20,6 +20,7 @@ namespace Repositories.OrderDetailR
 
         public async Task<IEnumerable<OrderDetail>> GetOrderDetailByOrderId(string orderId) => await OrderDetailDAO.Instance.GetOrderDetailByOrderId(orderId);
 
+        public async Task<List<OrderDetail>> GetOrderHistory(int customerId) => await OrderDetailDAO.Instance.GetOrderHistory(customerId);
         public async Task UpdateOrderDetail(OrderDetail orderDetail) => await OrderDetailDAO.Instance.UpdateOrderDetail(orderDetail);
     }
 }

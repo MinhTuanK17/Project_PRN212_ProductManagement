@@ -101,3 +101,5 @@ D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManageme
 D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManagement\ProductManagement\obj\Debug\net8.0-windows\Customer\CustomerMainWindow.baml
 D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManagement\ProductManagement\obj\Debug\net8.0-windows\Customer\ManageProfile\UpdateProfile.baml
 D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManagement\ProductManagement\obj\Debug\net8.0-windows\ProductManagement.sourcelink.json
+D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManagement\ProductManagement\obj\Debug\net8.0-windows\Customer\ManageProfile\ChangePassword.g.cs
+D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManagement\ProductManagement\obj\Debug\net8.0-windows\Customer\ManageProfile\ChangePassword.baml

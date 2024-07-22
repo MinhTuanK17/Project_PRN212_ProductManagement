@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\FPT_UNI\PRN211\CSharp (C#)\Assignment In Class\Project_PRN212_ProductManagement\ProductManagement\App.xaml
-101086196383
+11-1948207218
 
-15-260279127
+16-115413115
 250711083731
-Admin&Staff\AdminMainWindow.xaml;Admin&Staff\ManageCategory\AddNewCategory.xaml;Admin&Staff\ManageCategory\UpdateCategory.xaml;Admin&Staff\ManageCustomer\AddNewCustomer.xaml;Admin&Staff\ManageCustomer\EditCustomer.xaml;Admin&Staff\ManageProduct\AddNewProduct.xaml;Admin&Staff\ManageProduct\UpdateProduct.xaml;Customer\CustomerMainWindow.xaml;Customer\ManageProfile\UpdateProfile.xaml;LoginWindow.xaml;
+Admin&Staff\AdminMainWindow.xaml;Admin&Staff\ManageCategory\AddNewCategory.xaml;Admin&Staff\ManageCategory\UpdateCategory.xaml;Admin&Staff\ManageCustomer\AddNewCustomer.xaml;Admin&Staff\ManageCustomer\EditCustomer.xaml;Admin&Staff\ManageProduct\AddNewProduct.xaml;Admin&Staff\ManageProduct\UpdateProduct.xaml;Customer\CustomerMainWindow.xaml;Customer\ManageProfile\ChangePassword.xaml;Customer\ManageProfile\UpdateProfile.xaml;LoginWindow.xaml;
 
 True
 
